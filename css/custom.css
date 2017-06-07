@@ -1,0 +1,88 @@
+.bg-gradient-header {
+	background: #1b1f2a; /* Old browsers */
+	background: -moz-linear-gradient(top, #1b1f2a 0%, #261d23 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1b1f2a 0%,#261d23 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1b1f2a 0%,#261d23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1f2a', endColorstr='#261d23',GradientType=0 ); /* IE6-9 */
+	border-bottom: 15px solid #1e1618 !important;	
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #20263c;
+    color: #02abb6;
+}
+
+a {
+	color: #02abb6;
+}
+
+.bg-info {
+    background-color: #1e1618;
+    color: #eaf6f9;
+}
+
+#toggle-header {
+    border-top: 10px solid #89a92e;
+    padding-top: 35px;
+    padding-bottom: 39px;
+}
+
+div.user-detail {
+    display: inline-block;
+    margin-left: 20px;	
+    vertical-align: middle;
+    color: #8bdeef;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #20263c;
+}
+
+.no-background {
+	background:none;
+	border:none;
+}
+
+input.search-song {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #2899d4;
+    font-size: 18px;
+    color: #fff;
+}
+
+form.search-header {
+    padding-top: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+/*Color menus*/
+
+#home {
+	border-top: 10px solid #89a92e;
+}
+#tophits {
+	border-top: 10px solid #7f3710;
+}
+#newrelease {
+	border-top: 10px solid #0b8f10;
+}
+#playlist-menu {
+	border-top: 10px solid #b17610;
+}
+#mysong {
+	border-top: 10px solid #0a807a;
+}
+
+p.menu-title {
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.header-md .navbar-nav > li.menu > a {
+	padding: 20px;
+}

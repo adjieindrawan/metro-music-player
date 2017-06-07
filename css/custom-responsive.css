@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+  .header-md .navbar-nav > li > a {
+    padding: 20px;
+  }
+  input.search-song {
+  	min-width: 300px;
+  }
+  .vbox > header ~ section {
+    top: 99px;
+  }
+  .vbox > header.header-md ~ section {
+    top: 119px;
+  }  
+}
