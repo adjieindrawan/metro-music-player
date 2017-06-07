@@ -1,9 +1,9 @@
 .bg-gradient-header {
 	background: #1b1f2a; /* Old browsers */
-	background: -moz-linear-gradient(top, #1b1f2a 0%, #261d23 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #1b1f2a 0%,#261d23 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #1b1f2a 0%,#261d23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1f2a', endColorstr='#261d23',GradientType=0 ); /* IE6-9 */
+	background: -moz-linear-gradient(top, #1b1f2a 0%, #2f1f2a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1b1f2a 0%,#2f1f2a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1b1f2a 0%,#2f1f2a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1f2a', endColorstr='#2f1f2a',GradientType=0 ); /* IE6-9 */
 	border-bottom: 15px solid #1e1618 !important;	
 }
 
@@ -85,4 +85,9 @@ p.menu-title {
 
 .header-md .navbar-nav > li.menu > a {
 	padding: 20px;
+}
+
+.bg-black {
+  background-color: #060404;
+  color: #02abb6;
 }
