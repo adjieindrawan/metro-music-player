@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
   <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
   <link rel="stylesheet" href="css/font.css" type="text/css" />
+  <link rel="stylesheet" href="css/cssgram.min.css" type="text/css" /> 
   <link rel="stylesheet" href="css/app.css" type="text/css" />  
   <link rel="stylesheet" href="css/custom.css" type="text/css" /> 
   <link rel="stylesheet" href="css/custom-responsive.css" type="text/css" /> 
@@ -22,7 +23,7 @@
 </head>
 <body class="">
   <section class="vbox">
-    <header class="bg-gradient-header header header-md navbar navbar-fixed-top-xs">
+    <header class="bg-gradient header header-md navbar navbar-fixed-top-xs">
       <div class="navbar-header aside bg-info nav-xs">
         <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
           <i class="icon-list"></i>
@@ -138,326 +139,128 @@
     <section>
       <section class="hbox stretch">
         <!-- .aside -->
-        <aside class="bg-black dk nav-xs aside hidden-print" id="nav">          
+        <aside class="bg-black dk nav-xs aside hidden-print  bg-gradient" id="nav">          
           <section class="vbox">
             <section class="w-f-md scrollable">
               <div class="slim-scroll" data-height="auto" data-disable-fade-out="true" data-distance="0" data-size="10px" data-railOpacity="0.2">
                 <!-- nav -->                 
                 <nav class="nav-primary hidden-xs">
-                  <ul class="nav bg clearfix">
+                  <ul class="nav">
                     <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
-                      Discover
-                    </li>
+                      User
+                    </li>                  
                     <li>
-                      <a href="index.html">
-                        <i class="icon-disc icon text-success"></i>
-                        <span class="font-bold">What's new</span>
+                      <a href="#">
+                        <i class="icon-user icon text-pink"></i>
+                        <span class="font-bold">Profile</span>
                       </a>
                     </li>
                     <li>
-                      <a href="genres.html">
-                        <i class="icon-music-tone-alt icon text-info"></i>
-                        <span class="font-bold">Genres</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="events.html">
-                        <i class="icon-drawer icon text-primary-lter"></i>
+                      <a href="#">
+                        <i class="icon-envelope icon text-pink"></i>
                         <b class="badge bg-primary pull-right">6</b>
-                        <span class="font-bold">Events</span>
+                        <span class="font-bold">Message</span>
                       </a>
                     </li>
                     <li>
-                      <a href="listen.html">
-                        <i class="icon-list icon  text-info-dker"></i>
-                        <span class="font-bold">Listen</span>
+                      <a href="#">
+                        <i class="icon-people icon text-pink"></i>
+                        <b class="badge bg-primary pull-right">209</b>
+                        <span class="font-bold">Friend</span>
                       </a>
                     </li>
                     <li>
-                      <a href="video.html" data-target="#content" data-el="#bjax-el" data-replace="true">
-                        <i class="icon-social-youtube icon  text-primary"></i>
-                        <span class="font-bold">Video</span>
+                      <a href="#">
+                        <i class="icon-camrecorder icon text-pink"></i>
+                        <span class="font-bold">Live Channel</span>
                       </a>
                     </li>
                     <li class="m-b hidden-nav-xs"></li>
                   </ul>
-                  <ul class="nav" data-ride="collapse">
+                  <hr class="slice-nav">
+                  <ul class="nav">
                     <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
-                      Interface
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <span class="pull-right text-muted">
-                          <i class="fa fa-angle-left text"></i>
-                          <i class="fa fa-angle-down text-active"></i>
-                        </span>
-                        <i class="icon-screen-desktop icon">
-                        </i>
-                        <span>Layouts</span>
-                      </a>
-                      <ul class="nav dk text-sm">
-                        <li >
-                          <a href="layout-color.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Color option</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="layout-boxed.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Boxed layout</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="layout-fluid.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Fluid layout</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <span class="pull-right text-muted">
-                          <i class="fa fa-angle-left text"></i>
-                          <i class="fa fa-angle-down text-active"></i>
-                        </span>
-                        <i class="icon-chemistry icon">
-                        </i>
-                        <span>UI Kit</span>
-                      </a>
-                      <ul class="nav dk text-sm">
-                        <li >
-                          <a href="buttons.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Buttons</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="icons.html" class="auto">                            
-                            <b class="badge bg-info pull-right">369</b>                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Icons</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="grid.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Grid</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="widgets.html" class="auto">                            
-                            <b class="badge bg-dark pull-right">8</b>                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Widgets</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="components.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Components</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="list.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>List group</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="#table" class="auto">                            
-                            <span class="pull-right text-muted">
-                              <i class="fa fa-angle-left text"></i>
-                              <i class="fa fa-angle-down text-active"></i>
-                            </span>                            
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Table</span>
-                          </a>
-                          <ul class="nav dker">
-                            <li >
-                              <a href="table-static.html">
-                                <i class="fa fa-angle-right"></i>
-                                <span>Table static</span>
-                              </a>
-                            </li>
-                            <li >
-                              <a href="table-datatable.html">
-                                <i class="fa fa-angle-right"></i>
-                                <span>Datatable</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li >
-                          <a href="#form" class="auto">                            
-                            <span class="pull-right text-muted">
-                              <i class="fa fa-angle-left text"></i>
-                              <i class="fa fa-angle-down text-active"></i>
-                            </span>                            
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Form</span>
-                          </a>
-                          <ul class="nav dker">
-                            <li >
-                              <a href="form-elements.html">
-                                <i class="fa fa-angle-right"></i>
-                                <span>Form elements</span>
-                              </a>
-                            </li>
-                            <li >
-                              <a href="form-validation.html">
-                                <i class="fa fa-angle-right"></i>
-                                <span>Form validation</span>
-                              </a>
-                            </li>
-                            <li >
-                              <a href="form-wizard.html">
-                                <i class="fa fa-angle-right"></i>
-                                <span>Form wizard</span>
-                              </a>
-                            </li>
-                          </ul>
-                        </li>
-                        <li >
-                          <a href="chart.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Chart</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="portlet.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Portlet</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="timeline.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Timeline</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li >
-                      <a href="#" class="auto">
-                        <span class="pull-right text-muted">
-                          <i class="fa fa-angle-left text"></i>
-                          <i class="fa fa-angle-down text-active"></i>
-                        </span>
-                        <i class="icon-grid icon">
-                        </i>
-                        <span>Pages</span>
-                      </a>
-                      <ul class="nav dk text-sm">
-                        <li >
-                          <a href="profile.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Profile</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="blog.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Blog</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="invoice.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Invoice</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="gmap.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Google Map</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="jvectormap.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Vector Map</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="signin.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Signin</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="signup.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>Signup</span>
-                          </a>
-                        </li>
-                        <li >
-                          <a href="404.html" class="auto">                                                        
-                            <i class="fa fa-angle-right text-xs"></i>
-
-                            <span>404</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <ul class="nav text-sm">
-                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
-                      <span class="pull-right"><a href="#"><i class="icon-plus i-lg"></i></a></span>
-                      Playlist
+                      Music
                     </li>
                     <li>
                       <a href="#">
-                        <i class="icon-music-tone icon"></i>
-                        <span>Hip-Pop</span>
+                        <i class="icon"><img src="images/user-mic.png" class="icon"></i>
+                        <span class="font-bold">Song Title</span>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="icon-playlist icon text-success-lter"></i>
-                        <b class="badge bg-success dker pull-right">9</b>
-                        <span>Jazz</span>
+                        <i class="fa fa-language text-pink"  aria-hidden="true"></i>
+                        <span class="font-bold">Languagese</span>
                       </a>
                     </li>
+                    <li>
+                      <a href="#">
+                        <i class="icon-playlist icon text-pink"></i>
+                        <span class="font-bold">Song Genre</span>
+                      </a>
+                    </li>
+                    <li class="m-b hidden-nav-xs"></li>
                   </ul>
+                  <hr class="slice-nav">
+                  <ul class="nav">
+                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
+                      Karaoke
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-map-marker text-pink"  aria-hidden="true"></i>
+                        <span class="font-bold">KTV Nearby</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-qrcode text-pink"  aria-hidden="true"></i>
+                        <span class="font-bold">QRCode Connecting</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="icon-plus icon text-pink"  aria-hidden="true"></i>
+                        <span class="font-bold">Optional Menu</span>
+                      </a>
+                    </li>
+                    <li class="m-b hidden-nav-xs"></li>
+                  </ul>
+                  <hr class="slice-nav">
+                  <ul class="nav">
+                    <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
+                      Settings
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="icon-settings icon text-pink"  aria-hidden="true"></i>
+                        <span class="font-bold">Setting</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="icon-info icon text-pink"  aria-hidden="true"></i>
+                        <span class="font-bold">Help</span>
+                      </a>
+                    </li>                  
+                  </ul>                   
                 </nav>
                 <!-- / nav -->
               </div>
             </section>
             
             <footer class="footer hidden-xs no-padder text-center-nav-xs">
-              <div class="bg hidden-xs ">
+              <div class="bg hidden-xs bg-gradient">
                   <div class="dropdown dropup wrapper-sm clearfix">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                       <span class="thumb-sm avatar pull-left m-l-xs">                        
-                        <img src="images/m4.jpg" class="dker" alt="...">
+                        <img src="images/laska.png" class="dker" alt="...">
                         <i class="on b-black"></i>
                       </span>
                       <span class="hidden-nav-xs clear">
                         <span class="block m-l">
-                          <strong class="font-bold text-lt">John.Smith</strong> 
+                          <strong class="font-bold text-lt">Laska</strong> 
                           <b class="caret"></b>
                         </span>
                         <span class="text-muted text-xs block m-l">Art Director</span>
@@ -486,7 +289,8 @@
                       </li>
                     </ul>
                   </div>
-                </div>            </footer>
+                </div>
+              </footer>
           </section>
         </aside>
         <!-- /.aside -->
@@ -502,12 +306,12 @@
                         <div class="col-md-12">
                           <div class="item">
                             <div class="pos-rlt">
-                              <div class="item-overlay opacity r r-2x bg-black">
+                              <div class="item-overlay opacity bg-black">
                                 <div class="center text-center m-t-n">
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="#"><img src="images/m2.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="#"><img src="images/m0.jpg" alt="" class="img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="#" class="text-ellipsis">Spring rain</a>
@@ -518,18 +322,46 @@
                       </div> 
                     </div>
                     <div class="col-md-6">
-                      <a href="#" class="pull-right text-muted m-t-lg" data-toggle="class:fa-spin" ><i class="icon-refresh i-lg  inline" id="refresh"></i></a>
-                      <h3 class="font-thin">MOOD / GENRE</h3>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <h3 class="font-thin">MOOD / GENRE</h3>
+                        </div>
+                        <div class="col-md-6 right">
+                          <ul class="inline">
+                            <li>
+                              <a href="#">
+                                <h3>
+                                  <img src="images/list-ico.png" class="icon-md">
+                                </h3>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <h3>
+                                  <img src="images/grid-ico-active.png" class="icon-md">
+                                </h3>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#">
+                                <h3>
+                                  <img src="images/cover-flow.png" class="icon-md">
+                                </h3>
+                              </a>
+                            </li>                                                        
+                          </ul>
+                        </div>
+                      </div>
                       <div class="row row-sm">
                         <div class="col-xs-6 col-sm-4">
                           <div class="item">
                             <div class="pos-rlt">
-                              <div class="item-overlay opacity r r-2x bg-black">
+                              <div class="item-overlay opacity bg-black">
                                 <div class="center text-center m-t-n">
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="#"><img src="images/m2.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="#"><img src="images/m2.jpg" alt="" class="img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="#" class="text-ellipsis">Spring rain</a>
@@ -540,12 +372,12 @@
                         <div class="col-xs-6 col-sm-4">
                           <div class="item">
                             <div class="pos-rlt">
-                              <div class="item-overlay opacity r r-2x bg-black">
+                              <div class="item-overlay opacity bg-black">
                                 <div class="center text-center m-t-n">
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="#"><img src="images/m2.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="#"><img src="images/m3.jpg" alt="" class="img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="#" class="text-ellipsis">Spring rain</a>
@@ -556,12 +388,12 @@
                         <div class="col-xs-6 col-sm-4">
                           <div class="item">
                             <div class="pos-rlt">
-                              <div class="item-overlay opacity r r-2x bg-black">
+                              <div class="item-overlay opacity bg-black">
                                 <div class="center text-center m-t-n">
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="#"><img src="images/m4.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="#"><img src="images/m4.jpg" alt="" class="img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="#" class="text-ellipsis">Hope</a>
@@ -572,12 +404,12 @@
                         <div class="col-xs-6 col-sm-4">
                           <div class="item">
                             <div class="pos-rlt">
-                              <div class="item-overlay opacity r r-2x bg-black">
+                              <div class="item-overlay opacity bg-black">
                                 <div class="center text-center m-t-n">
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="#"><img src="images/m8.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="#"><img src="images/m8.jpg" alt="" class="img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="#" class="text-ellipsis">Listen wind</a>
@@ -588,12 +420,12 @@
                         <div class="col-xs-6 col-sm-4">
                           <div class="item">
                             <div class="pos-rlt">
-                              <div class="item-overlay opacity r r-2x bg-black">
+                              <div class="item-overlay opacity bg-black">
                                 <div class="center text-center m-t-n">
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="#"><img src="images/m9.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="#"><img src="images/m9.jpg" alt="" class="img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="#" class="text-ellipsis">Breaking me</a>
@@ -604,12 +436,12 @@
                         <div class="col-xs-6 col-sm-4">
                           <div class="item">
                             <div class="pos-rlt">
-                              <div class="item-overlay opacity r r-2x bg-black">
+                              <div class="item-overlay opacity bg-black">
                                 <div class="center text-center m-t-n">
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
                               </div>
-                              <a href="#"><img src="images/m1.jpg" alt="" class="r r-2x img-full"></a>
+                              <a href="#"><img src="images/m1.jpg" alt="" class="img-full"></a>
                             </div>
                             <div class="padder-v">
                               <a href="#" class="text-ellipsis">Nothing</a>
@@ -621,7 +453,10 @@
                     </div>                    
                   </div>
                 </section>
-                <footer class="footer bg-dark">
+                <footer class="footer bg-gradient">
+                  <div>
+                    
+                  </div>
                   <div id="jp_container_N">
                     <div class="jp-type-playlist">
                       <div id="jplayer_N" class="jp-jplayer hide"></div>
