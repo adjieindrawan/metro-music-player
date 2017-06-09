@@ -12,3 +12,10 @@
     top: 119px;
   }  
 }
+
+@media (max-width: 767px) {
+  .header {
+    border-bottom: none !important;
+  }
+
+}
