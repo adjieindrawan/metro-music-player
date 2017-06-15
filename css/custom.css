@@ -164,12 +164,55 @@ hr.slice-nav {
 }
 
 
+
+
+/*Pitch*/
+
+.range-bar {
+  border-radius: 0; 
+  height: 6px;
+}
+
+.pitch {
+  width: 125px !important;
+  padding: 0 25px;
+}
+
+.range-min,
+.range-max {
+  background-size: 15px !important;
+}
+
+.range-bar.power-ranger {
+  background-color: #6b6b6b;
+}
+
+.power-ranger .range-quantity {
+  background-color: #02abb6;
+}
+
+.power-ranger .range-handle {
+  background: url('../images/pitch.png') 0 0 no-repeat;
+  background-size: 8px !important;
+  border-radius: 0;
+  width: 8px;
+
+  -webkitbox-shadow: none;
+  box-shadow: none;
+}
+
+.power-ranger .range-min {
+  background: url(../images/pitch-b.png) 7px 2px no-repeat;
+}
+
+.power-ranger .range-max {
+  background: url(../images/pitch-a.png) 0 2px no-repeat;
+}
+
+
 /*Volume Bar*/
 .jp-volume {
-    width: 150px !important;
-}
-.range-min, .range-max {
-    display: none;
+    width: 80px !important;
 }
 
 .range-quantity {
@@ -182,4 +225,11 @@ hr.slice-nav {
     top: -8px;
 }
 
+.jp-volume-bar-value {
+    height: 6px;
+    background-color: #02abb6;
+}
 
+.jp-volume-bar {
+    background: #181f24;
+}

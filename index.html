@@ -251,7 +251,7 @@
             </section>
             
             <footer class="footer hidden-xs no-padder text-center-nav-xs">
-              <div class="bg hidden-xs bg-gradient">
+              <div class="bg hidden-xs bg-black">
                   <div class="dropdown dropup wrapper-sm clearfix">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                       <span class="thumb-sm avatar pull-left m-l-xs">                        
@@ -301,7 +301,7 @@
                 <section class="scrollable padder-lg bg-black p-b" id="bjax-target">
                   <div class="row">
                     <div class="col-md-6">
-                      <h3 class="font-thin">NEW RELEASE</h3>
+                      <h3 class="">NEW RELEASE</h3>
                       <div class="row row-sm">
                         <div class="col-md-12">
                           <div class="item">
@@ -374,7 +374,7 @@
                     <div class="col-md-6">
                       <div class="row">
                         <div class="col-md-6">
-                          <h3 class="font-thin">MOOD / GENRE</h3>
+                          <h3 class="">MOOD / GENRE</h3>
                         </div>
                       </div>
                       <div class="row row-sm">
@@ -477,7 +477,7 @@
                       </div>
                       <div class="row">
                         <div class="col-md-6">
-                          <h3 class="font-thin">TOP HITS</h3>
+                          <h3 class="">TOP HITS</h3>
                         </div>
                       </div>
                       <div class="row row-sm">
@@ -582,7 +582,7 @@
                   </div>
                 </section>
                 <!-- Metro Player -->
-                <footer class="footer bg-gradient">
+                <footer class="footer bg-black">
                   <div id="jp_container_N">
                     <div class="jp-type-playlist">
                       <div id="jplayer_N" class="jp-jplayer hide"></div>
@@ -613,15 +613,6 @@
                             </div>
                             <div class="hidden-xs hidden-sm jp-current-time text-xs text-muted"></div>
                             <div class="hidden-xs hidden-sm jp-duration text-xs text-muted"></div>
-                            <div class="hidden-xs hidden-sm">
-                              <a class="jp-mute" title="mute"><i class="icon-volume-2 icon"></i></a>
-                              <a class="jp-unmute hid" title="unmute"><i class="icon-volume-off icon"></i></a>
-                            </div>                 
-                            <div class="hidden-xs hidden-sm jp-volume">
-                              <div class="jp-volume-bar dk bg-blue">
-                                <input type="text" class="js-min-max-start" />
-                              </div>
-                            </div>
                             <div>
                               <a class="jp-shuffle" title="shuffle"><i class="icon-shuffle text-muted"></i></a>
                               <a class="jp-shuffle-off hid" title="shuffle off"><i class="icon-shuffle text-lt"></i></a>
@@ -633,6 +624,20 @@
                             <div class="hide">
                               <a class="jp-full-screen" title="full screen"><i class="fa fa-expand"></i></a>
                               <a class="jp-restore-screen" title="restore screen"><i class="fa fa-compress text-lt"></i></a>
+                            </div>                            
+                            <div class="hidden-xs hidden-sm">
+                              <a class="jp-mute" title="mute"><i class="icon-volume-2 icon"></i></a>
+                              <a class="jp-unmute hid" title="unmute"><i class="icon-volume-off icon"></i></a>
+                            </div>                                         
+                            <div class="hidden-xs hidden-sm jp-volume">
+                              <div class="jp-volume-bar">
+                                <div class="jp-volume-bar-value"></div>
+                              </div>                            
+                            </div>
+                            <div class="hidden-xs hidden-sm pitch">
+                              <div class="slider-wrapper">
+                                <input type="text" class="js-customized" />
+                              </div>                            
                             </div>
                           </div>
                         </div>
@@ -671,10 +676,15 @@
   <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
   <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
   <script type="text/javascript" src="js/jPlayer/demo.js"></script>
-  <script>
+  <script type="text/javascript">
+
+  // Basic customization.
+  var cust = document.querySelector('.js-customized');
+  var initCust = new Powerange(cust, { hideRange: true, klass: 'power-ranger', start: 60 });
+
     // Min, max, start.
-    var vals = document.querySelector('.js-min-max-start');
-    var initVals = new Powerange(vals, { min: 0, max: 100, start: 50 });    
+  var vals = document.querySelector('.js-min-max-start');
+  var initVals = new Powerange(vals, { hideRange: true, min: 0, max: 100, start: 50 });  
   </script>
 </body>
 </html>
