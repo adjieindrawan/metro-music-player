@@ -17,5 +17,18 @@
   .header {
     border-bottom: none !important;
   }
-
+  footer.footer {
+    position: fixed;
+    bottom: 0;
+  }
+  .nav-user .avatar {
+    display: inline-block;
+  }
+  .menus.open li {
+      display: inline-block !important;
+      width: auto;
+  }
+  .header-md .navbar-nav > li.menu > a {
+    padding: 10px;
+  }
 }

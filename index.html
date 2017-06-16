@@ -34,8 +34,11 @@
           <span class="hidden-nav-xs m-l-sm">Metro New</span>
         </a>
         <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
-          <i class="icon-settings"></i>
+          <i class="icon-user icon"></i>
         </a>
+<!--         <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".menus">
+          <i class="icon-menu icon"></i>
+        </a>  -->       
       </div>      
       <ul class="nav navbar-nav hidden-xs">
         <li>
@@ -44,7 +47,7 @@
           </a>
         </li>
       </ul>
-      <div class="navbar-left ">
+      <div class="navbar-left">
         <div class="nav navbar-nav hidden-xs nav-user user">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle clear" data-toggle="dropdown">
@@ -57,7 +60,7 @@
                 <br><span style="color: #9f6d98;">1.580 Point</span>                
               </div>
             </a>
-            <ul class="dropdown-menu animated fadeInRight">            
+            <ul class="dropdown-menu animated fadeInUp">            
               <li>
                 <a href="#">Settings</a>
               </li>
@@ -91,8 +94,8 @@
           </div>
         </div>
       </form>
-      <div class="navbar-right">
-        <div class="nav navbar-nav hidden-xs nav-user user">
+      <div class="navbar-right hidden-xs">
+        <div class="nav navbar-nav hidden-xs nav-menu menus">
           <li class="menu" id="home">
             <a href="#" class="center">
               <div class="thumb-lg">
@@ -310,10 +313,20 @@
                                 <div class="center text-center m-t-n">
                                   <a href="#"><i class="fa fa-play-circle i-2x"></i></a>
                                 </div>
-                                <div class="right bottom add-ply">
-                                  <a href="#"><i class="icon-heart icon"></i></a>
-                                  <a href="#"><i class="icon-options icon"></i></a>
-                                </div>                                
+                                <div class="bottom padder m-b-sm">
+                                  <a class="pull-right" data-toggle="class" href="#">
+                                    <i class="fa fa-heart-o text"></i> 
+                                    <i class="fa fa-heart text-active text-danger"></i>
+                                  </a>
+                                  <a class="" data-toggle="class" href="#">
+                                    <i class="fa fa-plus-circle text"></i> 
+                                    <i class="fa fa-check-circle text-active text-info"></i>
+                                  </a>
+                                  <a class="" data-toggle="class" href="#" style="margin-left: 10px;">
+                                    <i class="fa fa-share-alt text"></i> 
+                                    <i class="fa fa-share-alt text-active text-info"></i>
+                                  </a>                                  
+                                </div>
                               </div>
                               <a href="#"><img src="images/m1.jpg" alt="" class="img-full"></a>
                             </div>
@@ -596,14 +609,14 @@
                         </div>
                         <div class="jp-interface">
                           <div class="jp-controls">
-                            <div><a class="jp-previous"><i class="icon-control-rewind i-lg"></i></a></div>
+                            <div><a class="jp-previous"><i data-toggle="tooltip" data-placement="top" title="Previous" class="icon-control-rewind i-lg"></i></a></div>
                             <div>
-                              <a class="jp-play"><i class="icon-control-play i-2x"></i></a>
-                              <a class="jp-pause hid"><i class="icon-control-pause i-2x"></i></a>
+                              <a class="jp-play"><i data-toggle="tooltip" data-placement="top" title="Play" class="icon-control-play i-2x"></i></a>
+                              <a class="jp-pause hid"><i data-toggle="tooltip" data-placement="top" title="Pause" class="icon-control-pause i-2x"></i></a>
                             </div>
-                            <div><a class="jp-next"><i class="icon-control-forward i-lg"></i></a></div>
+                            <div><a class="jp-next"><i data-toggle="tooltip" data-placement="top" title="Next" class="icon-control-forward i-lg"></i></a></div>
                             <div class="hide"><a class="jp-stop"><i class="fa fa-stop"></i></a></div>
-                            <div><a class="" data-toggle="dropdown" data-target="#playlist"><i class="icon-list"></i></a></div>
+                            <div><a class="" data-toggle="dropdown" data-target="#playlist"><i data-toggle="tooltip" data-placement="top" title="Playlist" class="icon-list"></i></a></div>
                             <div class="jp-progress hidden-xs">
                               <div class="jp-seek-bar dk">
                                 <div class="jp-play-bar bg-info">
@@ -618,12 +631,12 @@
                             <div class="hidden-xs hidden-sm jp-current-time text-xs text-muted"></div>
                             <div class="hidden-xs hidden-sm jp-duration text-xs text-muted"></div>
                             <div>
-                              <a class="jp-shuffle" title="shuffle"><i class="icon-shuffle text-muted"></i></a>
-                              <a class="jp-shuffle-off hid" title="shuffle off"><i class="icon-shuffle text-lt"></i></a>
+                              <a class="jp-shuffle"><i data-toggle="tooltip" data-placement="top" title="Shuffle" class="icon-shuffle text-muted"></i></a>
+                              <a class="jp-shuffle-off hid" title="shuffle off"><i data-toggle="tooltip" data-placement="top" title="Shuffle Off" class="icon-shuffle text-lt"></i></a>
                             </div>
                             <div>
-                              <a class="jp-repeat" title="repeat"><i class="icon-loop text-muted"></i></a>
-                              <a class="jp-repeat-off hid" title="repeat off"><i class="icon-loop text-lt"></i></a>
+                              <a class="jp-repeat" title="repeat"><i data-toggle="tooltip" data-placement="top" title="Repeat" class="icon-loop text-muted"></i></a>
+                              <a class="jp-repeat-off hid" title="repeat off"><i data-toggle="tooltip" data-placement="top" title="Repeat off" class="icon-loop text-lt"></i></a>
                             </div>
                             <div class="hide">
                               <a class="jp-full-screen" title="full screen"><i class="fa fa-expand"></i></a>
@@ -639,7 +652,7 @@
                               </div>                            
                             </div>
                             <div>
-                              <a><i class="jp-karaoke fa fa-microphone text-muted"></i></a>
+                              <a><i data-toggle="tooltip" data-placement="top" title="Karaoke"  class="jp-karaoke fa fa-microphone text-muted"></i></a>
                             </div>
                             <div class="hidden-xs hidden-sm pitch">
                               <div class="slider-wrapper">
