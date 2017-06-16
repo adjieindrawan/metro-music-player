@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
   <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
   <link rel="stylesheet" href="css/font.css" type="text/css" />
+  <link rel="stylesheet" href="css/iziToast.min.css" type="text/css" /> 
   <link rel="stylesheet" href="css/powerange.min.css" type="text/css" /> 
   <link rel="stylesheet" href="css/app.css" type="text/css" />  
   <link rel="stylesheet" href="css/custom.css" type="text/css" /> 
@@ -318,8 +319,8 @@
                                     <i class="fa fa-heart-o text"></i> 
                                     <i class="fa fa-heart text-active text-danger"></i>
                                   </a>
-                                  <a class="" data-toggle="class" href="#">
-                                    <i class="fa fa-plus-circle text"></i> 
+                                  <a data-toggle="class" href="#" id="successClick">
+                                    <i class="fa fa-plus-circle text" ></i> 
                                     <i class="fa fa-check-circle text-active text-info"></i>
                                   </a>
                                   <a class="" data-toggle="class" href="#" style="margin-left: 10px;">
@@ -693,6 +694,7 @@
   <script src="js/powerange.min.js"></script>  
   <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
   <script src="js/app.plugin.js"></script>
+  <script src="js/iziToast.min.js"></script>  
   <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
   <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
   <script type="text/javascript" src="js/jPlayer/demo.js"></script>
@@ -711,7 +713,29 @@
     $('.jp-karaoke').click(function() {
       $(this).toggleClass('fa-microphone');
       $(this).toggleClass('fa-microphone-slash');
-});
+    });
+
+    // iZiToast
+    iziToast.settings({
+      timeout: 3000, // default timeout
+      resetOnHover: true,
+      // icon: '', // icon class
+      transitionIn: 'flipInX',
+      transitionOut: 'flipOutX',
+      position: 'topRight', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter, center
+      onOpen: function () {
+        console.log('callback abriu!');
+      },
+      onClose: function () {
+        console.log("callback fechou!");
+      }
+    });
+
+    // success
+    $('#successClick').click(function () {
+      iziToast.success({timeout: 5000, icon: 'fa fa-music', title: 'OK', message: 'Song success add to playlist!'});
+    }); // ! .click
+
   </script>
 </body>
 </html>
