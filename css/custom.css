@@ -233,3 +233,11 @@ hr.slice-nav {
 .jp-volume-bar {
     background: #181f24;
 }
+
+.add-ply {
+    padding: 10px 5px;
+}
+
+.add-ply a {
+    margin-right: 15px;
+}
