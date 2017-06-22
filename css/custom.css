@@ -15,12 +15,11 @@
     color: #02abb6;
 }
 
-a {
+a, .bg-black .text-lt {
 	color: #02abb6;
 }
 
 .bg-info {
-    background-color: #1e1618;
     color: #eaf6f9;
 }
 
@@ -254,6 +253,28 @@ hr.slice-nav {
   background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   opacity: 0.5;  
+}
+
+.pos-rlt:hover:after {
+  background: none;
+}
+
+div.jp-progress {
+    width: 200px;
+}
+
+div.logo-footer {
+    width: 80px;
+    padding: 10px;
+    text-align: right;
+}
+
+.bg-transparant {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.jp-title {
+    color: #fff;
 }
 
 .item-overlay {
