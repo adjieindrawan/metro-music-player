@@ -11,9 +11,13 @@
   .vbox > header.header-md ~ section {
     top: 119px;
   }  
+  .item-overlay {
+      z-index: 1;
+  }  
 }
 
 @media (max-width: 767px) {
+
   .header {
     border-bottom: none !important;
   }
@@ -31,4 +35,7 @@
   .header-md .navbar-nav > li.menu > a {
     padding: 10px;
   }
+  .aside a {
+      color: #fff !important;
+  }  
 }
