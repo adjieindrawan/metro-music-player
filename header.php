@@ -27,7 +27,7 @@
 <body class="">
     <section class="vbox">
         <header class="bg-gradient header header-md navbar navbar-fixed-top-xs">
-            <div class="navbar-header aside bg-info nav-xs">
+            <div class="navbar-header aside nav-xs">
                 <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
                     <i class="icon-list"></i>
                 </a>
