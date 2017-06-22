@@ -1,22 +1,29 @@
 .bg-gradient {
-	background: #1b1f2a; /* Old browsers */
-	background: -moz-linear-gradient(top, #1b1f2a 0%, #2f1f2a 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #1b1f2a 0%,#2f1f2a 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #1b1f2a 0%,#2f1f2a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1f2a', endColorstr='#2f1f2a',GradientType=0 ); /* IE6-9 */
+    background: #1b1f2a;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #1b1f2a 0%, #2f1f2a 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1b1f2a 0%, #2f1f2a 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1b1f2a 0%, #2f1f2a 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1b1f2a', endColorstr='#2f1f2a', GradientType=0);
+    /* IE6-9 */
 }
 
 .header {
-    border-bottom: 15px solid #1e1618 !important;   
+    border-bottom: 15px solid #1e1618 !important;
 }
 
-.nav > li > a:hover, .nav > li > a:focus {
+.nav > li > a:hover,
+.nav > li > a:focus {
     background-color: #20263c;
     color: #02abb6;
 }
 
-a, .bg-black .text-lt {
-	color: #02abb6;
+a,
+.bg-black .text-lt {
+    color: #02abb6;
 }
 
 .bg-info {
@@ -31,18 +38,20 @@ a, .bg-black .text-lt {
 
 div.user-detail {
     display: inline-block;
-    margin-left: 20px;	
+    margin-left: 20px;
     vertical-align: middle;
     color: #8bdeef;
 }
 
-.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
     background-color: #20263c;
 }
 
 .no-background {
-	background:none;
-	border:none;
+    background: none;
+    border: none;
 }
 
 input.search-song {
@@ -58,29 +67,34 @@ form.search-header {
 }
 
 .center {
-	text-align: center;
+    text-align: center;
 }
 
 .right {
     text-align: right;
 }
 
+
 /*Color menus*/
 
 #home {
-	border-top: 10px solid #89a92e;
+    border-top: 10px solid #89a92e;
 }
+
 #tophits {
-	border-top: 10px solid #7f3710;
+    border-top: 10px solid #7f3710;
 }
+
 #newrelease {
-	border-top: 10px solid #0b8f10;
+    border-top: 10px solid #0b8f10;
 }
+
 #playlist-menu {
-	border-top: 10px solid #b17610;
+    border-top: 10px solid #b17610;
 }
+
 #mysong {
-	border-top: 10px solid #0a807a;
+    border-top: 10px solid #0a807a;
 }
 
 p.menu-title {
@@ -94,8 +108,8 @@ p.menu-title {
 }
 
 .bg-black {
-  background-color: #060404;
-  color: #02abb6;
+    background-color: #060404;
+    color: #02abb6;
 }
 
 .text-pink {
@@ -135,11 +149,11 @@ hr.slice-nav {
 }
 
 .bg-blur {
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px);
-  filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
 }
 
 .blur-bg {
@@ -163,53 +177,51 @@ hr.slice-nav {
 }
 
 
-
-
 /*Pitch*/
 
 .range-bar {
-  border-radius: 0; 
-  height: 6px;
+    border-radius: 0;
+    height: 6px;
 }
 
 .pitch {
-  width: 125px !important;
-  padding: 0 25px;
+    width: 125px !important;
+    padding: 0 25px;
 }
 
 .range-min,
 .range-max {
-  background-size: 15px !important;
+    background-size: 15px !important;
 }
 
 .range-bar.power-ranger {
-  background-color: #6b6b6b;
+    background-color: #6b6b6b;
 }
 
 .power-ranger .range-quantity {
-  background-color: #02abb6;
+    background-color: #02abb6;
 }
 
 .power-ranger .range-handle {
-  background: url('../images/pitch.png') 0 0 no-repeat;
-  background-size: 8px !important;
-  border-radius: 0;
-  width: 8px;
-
-  -webkitbox-shadow: none;
-  box-shadow: none;
+    background: url('../images/pitch.png') 0 0 no-repeat;
+    background-size: 8px !important;
+    border-radius: 0;
+    width: 8px;
+    -webkitbox-shadow: none;
+    box-shadow: none;
 }
 
 .power-ranger .range-min {
-  background: url(../images/pitch-b.png) 7px 2px no-repeat;
+    background: url(../images/pitch-b.png) 7px 2px no-repeat;
 }
 
 .power-ranger .range-max {
-  background: url(../images/pitch-a.png) 0 2px no-repeat;
+    background: url(../images/pitch-a.png) 0 2px no-repeat;
 }
 
 
 /*Volume Bar*/
+
 .jp-volume {
     width: 80px !important;
 }
@@ -242,21 +254,24 @@ hr.slice-nav {
 }
 
 .pos-rlt:after {
-  width: 100%;
-  height:100%;
-  position: absolute;
-  content: "";
-  top: 0px;
-  left: 0px;
-  display:block;
-  background: #fc00ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  opacity: 0.5;  
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    display: block;
+    background: #fc00ff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #00dbde, #fc00ff);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.5;
 }
 
 .pos-rlt:hover:after {
-  background: none;
+    background: none;
 }
 
 div.jp-progress {

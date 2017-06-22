@@ -26,115 +26,115 @@
 
 <body class="">
     <section class="vbox">
-<header class="bg-gradient header header-md navbar navbar-fixed-top-xs">
-    <div class="navbar-header aside bg-info nav-xs">
-        <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
-            <i class="icon-list"></i>
-        </a>
-        <a href="index.html" class="navbar-brand text-lt visible-xs">
-            <i class="icon-earphones"></i>
-            <img src="images/logo.png" alt="." class="hide">
-            <span class="hidden-nav-xs m-l-sm">Metro New</span>
-        </a>
-        <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
-            <i class="icon-user icon"></i>
-        </a>
-    </div>
-    <ul class="nav navbar-nav hidden-xs">
-        <li>
-            <a href="#nav,.navbar-header" data-toggle="class:nav-xs,nav-xs" class="text-muted" id="toggle-header">
-                <img src="images/toggle-header.png">
-            </a>
-        </li>
-    </ul>
-    <div class="navbar-left">
-        <div class="nav navbar-nav hidden-xs nav-user user">
-            <li class="dropdown">
-                <a href="#" class="dropdown-toggle clear" data-toggle="dropdown">
-                    <div class="thumb-md avatar">
-                        <img src="images/laska.png" alt="...">
-                    </div>
-                    <div class="user-detail">
-                        Hi .. Welcome
-                        <br><strong>Laska Elvira</strong>
-                        <br><span style="color: #9f6d98;">1.580 Point</span>
-                    </div>
+        <header class="bg-gradient header header-md navbar navbar-fixed-top-xs">
+            <div class="navbar-header aside bg-info nav-xs">
+                <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
+                    <i class="icon-list"></i>
                 </a>
-                <ul class="dropdown-menu animated fadeInUp">
-                    <li>
-                        <a href="#">Settings</a>
-                    </li>
-                    <li>
-                        <a href="#">Profile</a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="badge bg-danger pull-right">3</span> Notifications
+                <a href="index.html" class="navbar-brand text-lt visible-xs">
+                    <i class="icon-earphones"></i>
+                    <img src="images/logo.png" alt="." class="hide">
+                    <span class="hidden-nav-xs m-l-sm">Metro New</span>
+                </a>
+                <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
+                    <i class="icon-user icon"></i>
+                </a>
+            </div>
+            <ul class="nav navbar-nav hidden-xs">
+                <li>
+                    <a href="#nav,.navbar-header" data-toggle="class:nav-xs,nav-xs" class="text-muted" id="toggle-header">
+                        <img src="images/toggle-header.png">
+                    </a>
+                </li>
+            </ul>
+            <div class="navbar-left">
+                <div class="nav navbar-nav hidden-xs nav-user user">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle clear" data-toggle="dropdown">
+                            <div class="thumb-md avatar">
+                                <img src="images/laska.png" alt="...">
+                            </div>
+                            <div class="user-detail">
+                                Hi .. Welcome
+                                <br><strong>Laska Elvira</strong>
+                                <br><span style="color: #9f6d98;">1.580 Point</span>
+                            </div>
                         </a>
+                        <ul class="dropdown-menu animated fadeInUp">
+                            <li>
+                                <a href="#">Settings</a>
+                            </li>
+                            <li>
+                                <a href="#">Profile</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="badge bg-danger pull-right">3</span> Notifications
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Help</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="modal.lockme.new.html" data-toggle="ajaxModal">Logout</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a href="#">Help</a>
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                        <a href="modal.lockme.new.html" data-toggle="ajaxModal">Logout</a>
-                    </li>
-                </ul>
-            </li>
-        </div>
-    </div>
-    <form class="navbar-form navbar-left hidden-xs search-header" role="search">
-        <div class="form-group">
-            <div class="input-group">
-                <input type="text" class="form-control search-song" placeholder="SEARCH SONGS BY ARTIST OR TITLE">
-                <span class="input-group-btn">
+                </div>
+            </div>
+            <form class="navbar-form navbar-left hidden-xs search-header" role="search">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control search-song" placeholder="SEARCH SONGS BY ARTIST OR TITLE">
+                        <span class="input-group-btn">
               <button type="submit" class="no-background"><img src="images/search-ico.png" alt="..."></button>
             </span>
+                    </div>
+                </div>
+            </form>
+            <div class="navbar-right hidden-xs">
+                <div class="nav navbar-nav hidden-xs nav-menu menus">
+                    <li class="menu" id="home">
+                        <a href="index.php" class="center">
+                            <div class="thumb-lg">
+                                <img src="images/home-ico.png" alt="...">
+                            </div>
+                            <p class="menu-title">MAIN PAGE</p>
+                        </a>
+                    </li>
+                    <li class="menu" id="tophits">
+                        <a href="tophits.php" class="center">
+                            <div class="thumb-lg">
+                                <img src="images/top-hits-ico.png" alt="...">
+                            </div>
+                            <p class="menu-title">TOP HITS</p>
+                        </a>
+                    </li>
+                    <li class="menu" id="newrelease">
+                        <a href="#" class="center">
+                            <div class="thumb-lg">
+                                <img src="images/new-release-ico.png" alt="...">
+                            </div>
+                            <p class="menu-title">NEW RELEASE</p>
+                        </a>
+                    </li>
+                    <li class="menu" id="playlist-menu">
+                        <a href="#" class="center">
+                            <div class="thumb-lg">
+                                <img src="images/playlist-ico.png" alt="...">
+                            </div>
+                            <p class="menu-title">PLAYLIST</p>
+                        </a>
+                    </li>
+                    <li class="menu" id="mysong">
+                        <a href="#" class="center">
+                            <div class="thumb-lg">
+                                <img src="images/my-music-ico.png" alt="...">
+                            </div>
+                            <p class="menu-title">MY SONGS</p>
+                        </a>
+                    </li>
+                </div>
             </div>
-        </div>
-    </form>
-    <div class="navbar-right hidden-xs">
-        <div class="nav navbar-nav hidden-xs nav-menu menus">
-            <li class="menu" id="home">
-                <a href="index.php" class="center">
-                    <div class="thumb-lg">
-                        <img src="images/home-ico.png" alt="...">
-                    </div>
-                    <p class="menu-title">MAIN PAGE</p>
-                </a>
-            </li>
-            <li class="menu" id="tophits">
-                <a href="tophits.php" class="center">
-                    <div class="thumb-lg">
-                        <img src="images/top-hits-ico.png" alt="...">
-                    </div>
-                    <p class="menu-title">TOP HITS</p>
-                </a>
-            </li>
-            <li class="menu" id="newrelease">
-                <a href="#" class="center">
-                    <div class="thumb-lg">
-                        <img src="images/new-release-ico.png" alt="...">
-                    </div>
-                    <p class="menu-title">NEW RELEASE</p>
-                </a>
-            </li>
-            <li class="menu" id="playlist-menu">
-                <a href="#" class="center">
-                    <div class="thumb-lg">
-                        <img src="images/playlist-ico.png" alt="...">
-                    </div>
-                    <p class="menu-title">PLAYLIST</p>
-                </a>
-            </li>
-            <li class="menu" id="mysong">
-                <a href="#" class="center">
-                    <div class="thumb-lg">
-                        <img src="images/my-music-ico.png" alt="...">
-                    </div>
-                    <p class="menu-title">MY SONGS</p>
-                </a>
-            </li>
-        </div>
-    </div>
-</header>
+        </header>
