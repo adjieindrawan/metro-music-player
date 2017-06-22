@@ -291,3 +291,7 @@ div.logo-footer {
 .jp-title {
     color: #fff;
 }
+
+.item-overlay {
+  z-index: 1;
+}
