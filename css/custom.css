@@ -241,3 +241,21 @@ hr.slice-nav {
 .add-ply a {
     margin-right: 15px;
 }
+
+.pos-rlt:after {
+  width: 100%;
+  height:100%;
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
+  display:block;
+  background: #fc00ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 0.5;  
+}
+
+.item-overlay {
+    z-index: 1;
+}
