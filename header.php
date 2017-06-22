@@ -65,7 +65,7 @@
                         <a href="#">Settings</a>
                     </li>
                     <li>
-                        <a href="profile.html">Profile</a>
+                        <a href="#">Profile</a>
                     </li>
                     <li>
                         <a href="#">
@@ -73,11 +73,11 @@
                         </a>
                     </li>
                     <li>
-                        <a href="docs.html">Help</a>
+                        <a href="#">Help</a>
                     </li>
                     <li class="divider"></li>
                     <li>
-                        <a href="modal.lockme.html" data-toggle="ajaxModal">Logout</a>
+                        <a href="modal.lockme.new.html" data-toggle="ajaxModal">Logout</a>
                     </li>
                 </ul>
             </li>
@@ -96,7 +96,7 @@
     <div class="navbar-right hidden-xs">
         <div class="nav navbar-nav hidden-xs nav-menu menus">
             <li class="menu" id="home">
-                <a href="#" class="center">
+                <a href="index.php" class="center">
                     <div class="thumb-lg">
                         <img src="images/home-ico.png" alt="...">
                     </div>
@@ -104,7 +104,7 @@
                 </a>
             </li>
             <li class="menu" id="tophits">
-                <a href="#" class="center">
+                <a href="tophits.php" class="center">
                     <div class="thumb-lg">
                         <img src="images/top-hits-ico.png" alt="...">
                     </div>
