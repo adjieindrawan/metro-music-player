@@ -38,4 +38,9 @@
   .aside a {
       color: #fff !important;
   }  
+  .open, .open body {
+      height: 100% !important;
+      position: relative;
+      min-height: auto !important;
+  }  
 }

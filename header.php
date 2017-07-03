@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Metro New | Smart Karaoke Skin</title>
     <meta name="description" content="Metro New" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
     <link rel="stylesheet" href="js/jPlayer/jplayer.flat.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="css/animate.css" type="text/css" />
