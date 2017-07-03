@@ -130,6 +130,7 @@ img.icon {
 
 img.icon-md {
     width: 25px;
+    padding-bottom: 5px;
 }
 
 ul.inline {
@@ -185,8 +186,9 @@ hr.slice-nav {
 }
 
 .pitch {
-    width: 125px !important;
+    width: 100px !important;
     padding: 0 25px;
+    padding-top: 15px;
 }
 
 .range-min,
@@ -313,4 +315,20 @@ div.logo-footer {
     margin-top: 9px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.block {
+    display: block;
+}
+.jp-controls a {
+    padding: 0;
+}
+
+.jp-current-time, .jp-duration {
+    color: #02abb6;
+}
+
+.pitch span.block {
+    color: #02abb6;
+    margin-top: 5px;
 }

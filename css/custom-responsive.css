@@ -42,5 +42,8 @@
       height: 100% !important;
       position: relative;
       min-height: auto !important;
-  }  
+  }
+  .jp-controls > div  {
+    width: auto;
+  }
 }

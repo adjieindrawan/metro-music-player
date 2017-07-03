@@ -9,16 +9,13 @@
                 </div>
                 <div class="jp-interface">
                     <div class="jp-controls">
+                        <div><a class="" data-toggle="dropdown" data-target="#playlist"><i class="icon-list i-lg"></i><span class="block">Playlist</span></a></div>
                         <div>
-                            <a class="jp-previous"><i data-toggle="tooltip" data-placement="top" title="Previous" class="icon-control-rewind i-lg"></i></a>
+                            <a class="jp-play"><i class="icon-control-play i-lg"></i><span class="block">Play</span></a>
+                            <a class="jp-pause hid block"><i class="icon-control-pause i-lg"></i><span class="block">Pause</span></a>
                         </div>
-                        <div>
-                            <a class="jp-play"><i data-toggle="tooltip" data-placement="top" title="Play" class="icon-control-play i-2x"></i></a>
-                            <a class="jp-pause hid"><i data-toggle="tooltip" data-placement="top" title="Pause" class="icon-control-pause i-2x"></i></a>
-                        </div>
-                        <div><a class="jp-next"><i data-toggle="tooltip" data-placement="top" title="Next" class="icon-control-forward i-lg"></i></a></div>
+                        <div><a class="jp-next"><i class="icon-control-forward i-lg"></i><span class="block">Next</span></a></div>
                         <div class="hide"><a class="jp-stop"><i class="fa fa-stop"></i></a></div>
-                        <div><a class="" data-toggle="dropdown" data-target="#playlist"><i data-toggle="tooltip" data-placement="top" title="Playlist" class="icon-list i-lg"></i></a></div>
                         <div class="hidden-xs hidden-sm jp-current-time text-lg"></div>
                         <div class="jp-progress hidden-xs">
                             <div class="jp-seek-bar dk">
@@ -32,27 +29,29 @@
                             </div>
                         </div>
                         <div class="hidden-xs hidden-sm jp-duration text-lg"></div>
-                        <div class="icon-footer">
-                            <a href="#"><i class="icon icon-volume-2 i-lg"></i></a>
+                        <div class="icon-footer hidden-xs">
+                            <a href="#"><i class="icon icon-volume-2 i-lg"></i><span class="block">Volume</span></a>
+                        </div>
+                        <div class="hidden-xs">
+                            <a class="jp-repeat"><i class="icon-loop i-lg"></i><span class="block">Repeat On</span></a>
+                            <a class="jp-repeat-off hid block"><i class="icon-loop i-lg"></i><span class="block">Repeat Off</span></a>
                         </div>
                         <div class="icon-footer hidden-xs">
-                            <a href="#"><img class="icon-md" src="images/repeat.png"></a>
+                            <a href="#"><i class="icon icon-size-fullscreen i-lg"></i><span class="block">Fullscreen</span></a>
                         </div>
                         <div class="icon-footer hidden-xs">
-                            <a href="#"><img class="icon-md" src="images/full-screen.png"></a>
-                        </div>
-                        <div class="icon-footer hidden-xs">
-                            <a href="#"><img class="icon-md" src="images/cast.png"></a>
+                            <a href="#"><img class="icon-md" src="images/cast.png"><span class="block">Chromecast</span></a>
                         </div>
                         <div class="hidden-xs">&nbsp;</div>
-                        <div class="icon-footer hidden-xs">
-                            <a href="#"><img class="icon-md" src="images/mic.png"></a>
-                        </div>  
-                        <div class="visible-xs ds-table"><a class="" data-toggle="dropdown" data-target="#options"><i class="icon-options i-lg"></i></a></div>
-                        <div class="hidden-xs hidden-sm pitch">
+                        <div class="icon-footer">
+                            <a href="#"><img class="icon-md" src="images/mic.png"><span class="block">Vocal</span></a>
+                        </div>
+                        <!-- <div class="visible-xs block"><a class="" data-toggle="dropdown" data-target="#options"><i class="icon-options i-lg"></i></a></div> -->
+                        <div class="hidden-sm pitch">
                             <div class="slider-wrapper">
                                 <input type="text" class="js-customized" />
                             </div>
+                            <span class="block">Pitch</span>
                         </div>
                         <div class="hidden-xs">&nbsp;</div>
                         <div class="hidden-xs hidden-sm logo-footer">
@@ -67,14 +66,20 @@
                     <li class="list-group-item"></li>
                 </ul>
             </div>
-            <div class="dd-options dropup" id="options">
+<!--             <div class="dd-options dropup" id="options">
                 <ul class="dropdown-menu aside-xl dker">
-                    <li class="list-group-item"><a href="#"><img class="icon-md right10" src="images/full-screen.png"> Full Screen</a></li>
-                    <li class="list-group-item"><a href="#"><img class="icon-md right10" src="images/cast.png"> Cast</a></li>
-                    <li class="list-group-item"><a href="#"><img class="icon-md right10" src="images/mic.png"> Karaoke</a></li>
-                    <li class="list-group-item"><a href="#"><img class="icon-md right10" src="images/pitch-icon.png"> Pitch</a></li>
+                    <li class="list-group-item"><a href="#"><a href="#"><i class="icon icon-size-fullscreen i-lg"></i> Full Screen</a></li>
+                    <li class="list-group-item">
+                        <a href="#"><img class="icon-md right10" src="images/cast.png"> Cast</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#"><img class="icon-md right10" src="images/mic.png"> Karaoke</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#"><img class="icon-md right10" src="images/pitch-icon.png"> Pitch</a>
+                    </li>
                 </ul>
-            </div>            
+            </div> -->
             <div class="jp-no-solution hide">
                 <span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
             </div>
