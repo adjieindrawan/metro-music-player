@@ -10,14 +10,14 @@
   }
   .vbox > header.header-md ~ section {
     top: 119px;
-  }  
-  .item-overlay {
-      z-index: 1;
-  }  
+  } 
 }
 
 @media (max-width: 767px) {
 
+  .ds-table {
+      display: table-cell !important;
+  } 
   .header {
     border-bottom: none !important;
   }

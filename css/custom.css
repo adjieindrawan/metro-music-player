@@ -295,3 +295,22 @@ div.logo-footer {
 .item-overlay {
   z-index: 1;
 }
+
+.dd-options.open ul {
+    display: block !important;
+    bottom: 60px;
+    left: 0px;
+    right: 0px;
+}
+
+.right10 {
+    margin-right: 10px;
+}
+
+.navbar-brand img {
+    max-height: 35px;
+    vertical-align: middle;
+    margin-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+}

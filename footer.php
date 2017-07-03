@@ -18,7 +18,7 @@
                         </div>
                         <div><a class="jp-next"><i data-toggle="tooltip" data-placement="top" title="Next" class="icon-control-forward i-lg"></i></a></div>
                         <div class="hide"><a class="jp-stop"><i class="fa fa-stop"></i></a></div>
-                        <div><a class="" data-toggle="dropdown" data-target="#playlist"><i data-toggle="tooltip" data-placement="top" title="Playlist" class="icon-list"></i></a></div>
+                        <div><a class="" data-toggle="dropdown" data-target="#playlist"><i data-toggle="tooltip" data-placement="top" title="Playlist" class="icon-list i-lg"></i></a></div>
                         <div class="hidden-xs hidden-sm jp-current-time text-lg"></div>
                         <div class="jp-progress hidden-xs">
                             <div class="jp-seek-bar dk">
@@ -33,27 +33,28 @@
                         </div>
                         <div class="hidden-xs hidden-sm jp-duration text-lg"></div>
                         <div class="icon-footer">
-                            <a href="#"><img class="img-responsive" src="images/volume.png"></a>
+                            <a href="#"><i class="icon icon-volume-2 i-lg"></i></a>
                         </div>
-                        <div class="icon-footer">
-                            <a href="#"><img class="img-responsive" src="images/repeat.png"></a>
+                        <div class="icon-footer hidden-xs">
+                            <a href="#"><img class="icon-md" src="images/repeat.png"></a>
                         </div>
-                        <div class="icon-footer">
-                            <a href="#"><img class="img-responsive" src="images/full-screen.png"></a>
+                        <div class="icon-footer hidden-xs">
+                            <a href="#"><img class="icon-md" src="images/full-screen.png"></a>
                         </div>
-                        <div class="icon-footer">
-                            <a href="#"><img class="img-responsive" src="images/cast.png"></a>
+                        <div class="icon-footer hidden-xs">
+                            <a href="#"><img class="icon-md" src="images/cast.png"></a>
                         </div>
-                        <div>&nbsp</div>
-                        <div class="icon-footer">
-                            <a href="#"><img class="img-responsive" src="images/mic.png"></a>
-                        </div>
+                        <div class="hidden-xs">&nbsp;</div>
+                        <div class="icon-footer hidden-xs">
+                            <a href="#"><img class="icon-md" src="images/mic.png"></a>
+                        </div>  
+                        <div class="visible-xs ds-table"><a class="" data-toggle="dropdown" data-target="#options"><i class="icon-options i-lg"></i></a></div>
                         <div class="hidden-xs hidden-sm pitch">
                             <div class="slider-wrapper">
                                 <input type="text" class="js-customized" />
                             </div>
                         </div>
-                        <div>&nbsp</div>
+                        <div class="hidden-xs">&nbsp;</div>
                         <div class="hidden-xs hidden-sm logo-footer">
                             <img class="img-responsive" src="images/logo-smart.png">
                         </div>
@@ -66,6 +67,14 @@
                     <li class="list-group-item"></li>
                 </ul>
             </div>
+            <div class="dd-options dropup" id="options">
+                <ul class="dropdown-menu aside-xl dker">
+                    <li class="list-group-item"><a href="#"><img class="icon-md right10" src="images/full-screen.png"> Full Screen</a></li>
+                    <li class="list-group-item"><a href="#"><img class="icon-md right10" src="images/cast.png"> Cast</a></li>
+                    <li class="list-group-item"><a href="#"><img class="icon-md right10" src="images/mic.png"> Karaoke</a></li>
+                    <li class="list-group-item"><a href="#"><img class="icon-md right10" src="images/pitch-icon.png"> Pitch</a></li>
+                </ul>
+            </div>            
             <div class="jp-no-solution hide">
                 <span>Update Required</span> To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
             </div>
