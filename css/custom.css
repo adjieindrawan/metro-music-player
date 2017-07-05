@@ -380,3 +380,7 @@ a:hover, a:focus {
 .inline-table {
     display: inline-table !important;
 }
+
+input.search-song::-webkit-input-placeholder {
+  color: #6f6f6f;
+}

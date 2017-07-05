@@ -85,7 +85,7 @@
             <form class="navbar-form navbar-left hidden-xs search-header" role="search">
                 <div class="form-group">
                     <div class="input-group">
-                        <input type="text" class="form-control search-song" placeholder="SEARCH SONGS BY ARTIST OR TITLE">
+                        <input type="text" class="form-control search-song" placeholder="Search Artists or Song">
                         <span class="input-group-btn">
               <button type="submit" class="no-background"><img src="images/search-ico.png" alt="..."></button>
             </span>
