@@ -9,17 +9,17 @@
                 </div>
                 <div class="jp-interface">
                     <div class="jp-controls">
-                        <div><a class="" data-toggle="dropdown" data-target="#playlist"><i class="icon-list i-lg"></i><span class="block">Playlist</span></a></div>
-                        <div>
-                            <a class="jp-play"><i class="icon-control-play i-lg"></i><span class="block">Play</span></a>
-                            <a class="jp-pause hid block"><i class="icon-control-pause i-lg"></i><span class="block">Pause</span></a>
+                        <div class="hidden-xs">&nbsp;</div>
+                        <div class="bb-red">
+                            <a class="jp-play"><img class="icon-lg" src="images/player-control/play-2.png"></a>
+                            <a class="jp-pause hid block"><img class="icon-lg" src="images/player-control/pause-2.png"></a>
                         </div>
-                        <div><a class="jp-next"><i class="icon-control-forward i-lg"></i><span class="block">Next</span></a></div>
-                        <div class="hide"><a class="jp-stop"><i class="fa fa-stop"></i></a></div>
-                        <div class="hidden-xs hidden-sm jp-current-time text-lg"></div>
-                        <div class="jp-progress hidden-xs">
+                        <div class="bb-red"><a class="jp-next"><img class="icon" src="images/player-control/next.png"></div></a>
+                        <div class="hide bt-red"><a class="jp-stop"><i class="fa fa-stop"></i></a></div>
+                        <div class="hidden-xs hidden-sm jp-current-time text-lg bb-red"></div>
+                        <div class="jp-progress hidden-xs bb-red">
                             <div class="jp-seek-bar dk">
-                                <div class="jp-play-bar bg-info">
+                                <div class="jp-play-bar bg-brown">
                                 </div>
                                 <div class="jp-title text-lt">
                                     <ul>
@@ -28,30 +28,25 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="hidden-xs hidden-sm jp-duration text-lg"></div>
-                        <div class="icon-footer hidden-xs">
-                            <a href="#"><i class="icon icon-volume-2 i-lg"></i><span class="block">Volume</span></a>
+                        <div class="hidden-xs hidden-sm jp-duration text-lg bb-red"></div>
+                        <div class="icon-footer hidden-xs bb-red">
+                            <a href="#"><i class="icon icon-volume-2 i-lg"></i></a>
                         </div>
-                        <div class="hidden-xs">
-                            <a class="jp-repeat"><i class="icon-loop i-lg"></i><span class="block">Repeat On</span></a>
-                            <a class="jp-repeat-off hid block"><i class="icon-loop i-lg"></i><span class="block">Repeat Off</span></a>
+                        <div class="hidden-xs  bb-red">
+                            <a class="jp-repeat"><i class="icon-loop i-lg"></i></a>
+                            <a class="jp-repeat-off hid block"><i class="icon-loop i-lg"></i></a>
                         </div>
-                        <div class="icon-footer hidden-xs">
-                            <a href="#"><i class="icon icon-size-fullscreen i-lg"></i><span class="block">Fullscreen</span></a>
-                        </div>
-                        <div class="icon-footer hidden-xs">
-                            <a href="#"><img class="icon-md" src="images/cast.png"><span class="block">Chromecast</span></a>
-                        </div>
+                        <div class="bb-red"><a class="" data-toggle="dropdown" data-target="#playlist"><i class="icon-list i-lg"></i></a></div>
                         <div class="hidden-xs">&nbsp;</div>
-                        <div class="icon-footer">
-                            <a href="#"><img class="icon-md" src="images/mic.png"><span class="block">Vocal</span></a>
+                        <div class="icon-footer bb-green">
+                            <a href="#" class=""><i class="fa fa-microphone jp-karaoke i-lg" aria-hidden="true"></i></a>
                         </div>
                         <!-- <div class="visible-xs block"><a class="" data-toggle="dropdown" data-target="#options"><i class="icon-options i-lg"></i></a></div> -->
-                        <div class="hidden-sm pitch">
+                        <div class="hidden-sm pitch bb-purple">
                             <div class="slider-wrapper">
                                 <input type="text" class="js-customized" />
                             </div>
-                            <span class="block">Pitch</span>
+                            <span class="block">PITCH</span>
                         </div>
                         <div class="hidden-xs">&nbsp;</div>
                         <div class="hidden-xs hidden-sm logo-footer">
@@ -97,6 +92,7 @@
 </section>
 </section>
 <script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <!-- Bootstrap -->
 <script src="js/bootstrap.js"></script>
 <!-- App -->
@@ -105,10 +101,12 @@
 <script src="js/slimscroll/jquery.slimscroll.min.js"></script>
 <script src="js/app.plugin.js"></script>
 <script src="js/iziToast.min.js"></script>
+<script type="text/javascript" src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
 <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
 <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
 <script type="text/javascript" src="js/jPlayer/demo.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+
 </body>
 
 </html>

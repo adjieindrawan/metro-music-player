@@ -47,7 +47,7 @@
                         <li>
                             <a href="#">
                                 <i class="icon"><img src="images/user-mic.png" class="icon"></i>
-                                <span class="font-bold">Song Title</span>
+                                <span class="font-bold">My Song</span>
                             </a>
                         </li>
                         <li>
@@ -111,7 +111,7 @@
                 <!-- / nav -->
             </div>
         </section>
-        <footer class="footer hidden-xs no-padder text-center-nav-xs">
+<!--         <footer class="footer hidden-xs no-padder text-center-nav-xs">
             <div class="bg hidden-xs bg-black">
                 <div class="dropdown dropup wrapper-sm clearfix">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -150,7 +150,7 @@
                     </ul>
                 </div>
             </div>
-        </footer>
+        </footer> -->
     </section>
 </aside>
 <!-- /.aside -->

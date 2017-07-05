@@ -8,9 +8,6 @@
   .vbox > header ~ section {
     top: 99px;
   }
-  .vbox > header.header-md ~ section {
-    top: 119px;
-  } 
 }
 
 @media (max-width: 767px) {

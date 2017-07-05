@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/font.css" type="text/css" />
     <link rel="stylesheet" href="css/iziToast.min.css" type="text/css" />
     <link rel="stylesheet" href="css/powerange.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">    
     <link rel="stylesheet" href="css/app.css" type="text/css" />
     <link rel="stylesheet" href="css/custom.css" type="text/css" />
     <link rel="stylesheet" href="css/custom-responsive.css" type="text/css" />
@@ -48,16 +50,15 @@
             <div class="navbar-left">
                 <div class="nav navbar-nav hidden-xs nav-user user">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle clear" data-toggle="dropdown">
+                        <a href="#" class="dropdown-toggle clear inline-table" data-toggle="dropdown">
                             <div class="thumb-md avatar">
                                 <img src="images/laska.png" alt="...">
                             </div>
-                            <div class="user-detail">
-                                Hi .. Welcome
-                                <br><strong>Laska Elvira</strong>
-                                <br><span style="color: #9f6d98;">1.580 Point</span>
-                            </div>
                         </a>
+                        <div class="user-detail">
+                            <strong>Guest</strong>
+                            <br><a href="signin.html"> Please Login</a>
+                        </div>                                                
                         <ul class="dropdown-menu animated fadeInUp">
                             <li>
                                 <a href="#">Settings</a>
@@ -101,6 +102,14 @@
                             <p class="menu-title">MAIN PAGE</p>
                         </a>
                     </li>
+                    <li class="menu" id="newrelease">
+                        <a href="#" class="center">
+                            <div class="thumb-lg">
+                                <img src="images/new-release-ico.png" alt="...">
+                            </div>
+                            <p class="menu-title">NEW RELEASE</p>
+                        </a>
+                    </li>                    
                     <li class="menu" id="tophits">
                         <a href="tophits.php" class="center">
                             <div class="thumb-lg">
@@ -109,28 +118,20 @@
                             <p class="menu-title">TOP HITS</p>
                         </a>
                     </li>
-                    <li class="menu" id="newrelease">
+                    <li class="menu" id="mysong">
                         <a href="#" class="center">
                             <div class="thumb-lg">
-                                <img src="images/new-release-ico.png" alt="...">
+                                <img src="images/my-music-ico.png" alt="...">
                             </div>
-                            <p class="menu-title">NEW RELEASE</p>
+                            <p class="menu-title">GENRES</p>
                         </a>
-                    </li>
+                    </li>                    
                     <li class="menu" id="playlist-menu">
                         <a href="#" class="center">
                             <div class="thumb-lg">
                                 <img src="images/playlist-ico.png" alt="...">
                             </div>
                             <p class="menu-title">PLAYLIST</p>
-                        </a>
-                    </li>
-                    <li class="menu" id="mysong">
-                        <a href="#" class="center">
-                            <div class="thumb-lg">
-                                <img src="images/my-music-ico.png" alt="...">
-                            </div>
-                            <p class="menu-title">MY SONGS</p>
                         </a>
                     </li>
                 </div>

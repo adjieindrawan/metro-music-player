@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
 .bg-gradient {
     background: #1b1f2a;
     /* Old browsers */
@@ -11,14 +13,16 @@
     /* IE6-9 */
 }
 
-.header {
-    border-bottom: 15px solid #1e1618 !important;
-}
 
 .nav > li > a:hover,
 .nav > li > a:focus {
     background-color: #20263c;
     color: #02abb6;
+}
+
+h3.title {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
 }
 
 a,
@@ -193,7 +197,7 @@ hr.slice-nav {
 
 .range-min,
 .range-max {
-    background-size: 15px !important;
+    background-size: 20px !important;
 }
 
 .range-bar.power-ranger {
@@ -214,11 +218,11 @@ hr.slice-nav {
 }
 
 .power-ranger .range-min {
-    background: url(../images/pitch-b.png) 7px 2px no-repeat;
+    background: url(../images/pitch-b.png) no-repeat;
 }
 
 .power-ranger .range-max {
-    background: url(../images/pitch-a.png) 0 2px no-repeat;
+    background: url(../images/pitch-a.png) no-repeat;
 }
 
 
@@ -331,4 +335,48 @@ div.logo-footer {
 .pitch span.block {
     color: #02abb6;
     margin-top: 5px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+span.white {
+    color: #fff;
+}
+
+span a {
+    color: #02abb6;
+}
+
+span a:hover, span a:focus, span a:visited {
+    color: #00c8d5;
+}
+
+img.icon-lg {
+    width: 4rem;
+}
+
+.bb-red {
+    border-bottom: 5px solid #984746;
+}
+
+.bb-purple {
+    border-bottom: 5px solid #473299;
+}
+
+.bb-green {
+    border-bottom: 5px solid #06b21e;
+}
+
+.bg-brown {
+    background-color: #312b2b;
+}
+
+a:hover, a:focus {
+    color: #b47aaa;
+}
+
+.inline-table {
+    display: inline-table !important;
 }
