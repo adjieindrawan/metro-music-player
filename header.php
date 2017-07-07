@@ -52,7 +52,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle clear inline-table" data-toggle="dropdown">
                             <div class="thumb-md avatar">
-                                <img src="images/laska.png" alt="...">
+                                <img src="images/avatar.png" alt="...">
                             </div>
                         </a>
                         <div class="user-detail">
