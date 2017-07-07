@@ -11,6 +11,12 @@
 }
 
 @media (max-width: 767px) {
+  h3.title {
+      font-size: 20px;
+  }
+  .owl-theme .owl-nav [class*=owl-] {
+      font-size: 3rem;
+  }
 
   .ds-table {
       display: table-cell !important;

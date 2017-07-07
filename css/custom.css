@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
+h3.title{
+    font-size: 18px;
+}
+
+p.menu-title {
+    font-family: 'Dosis', sans-serif;
+}
+
 .bg-gradient {
     background: #1b1f2a;
     /* Old browsers */
@@ -383,4 +391,62 @@ a:hover, a:focus {
 
 input.search-song::-webkit-input-placeholder {
   color: #6f6f6f;
+}
+
+.video-title {
+    position: absolute;
+    z-index: 999;
+    color: #fff;
+    display: block;
+    bottom: 30px;
+    text-align: left;
+    left: 30px;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    background: none;
+    font-size: 7rem;
+    opacity: 0.6;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    opacity: 1;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+.owl-prev {
+    left: 0;
+    position: absolute;
+}
+
+.owl-next {
+    right: 0;
+    position: absolute;
+}
+
+.owl-dots {
+    margin-top: 20px;
+}
+
+.owl-nome .owl-dots .owl-dot span {
+    width: 10px;
+    height: 5px;
+    margin: 5px 7px;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-nome .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #02ABB6;
+    width: 20px;
+    -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-property: width;
+    transition-duration: 0.3s;
 }

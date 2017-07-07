@@ -56,7 +56,7 @@
                 </div>
             </div>
             <div class="jp-playlist dropup" id="playlist">
-                <ul class="dropdown-menu aside-xl dker">
+                <ul class="dropdown-menu aside-xl dker bg-gradient">
                     <!-- The method Playlist.displayPlaylist() uses this unordered list -->
                     <li class="list-group-item"></li>
                 </ul>

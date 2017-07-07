@@ -1,18 +1,20 @@
 // Owl
 $('.owl-carousel').owlCarousel({
-    items: 1,
-    merge: true,
-    loop: true,
-    margin: 10,
-    video: true,
-    lazyLoad: true,
-    center: true,
-    responsive: {
-        480: {
-            items: 1
+    loop:true,
+    margin:10,
+    nav:true,
+    navText: [
+        "<i class='icon icon-arrow-left'></i>",
+        "<i class='icon icon-arrow-right'></i>"],
+    responsive:{
+        0:{
+            items:1
         },
-        600: {
-            items: 1
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
         }
     }
 })

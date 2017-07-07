@@ -9,20 +9,20 @@
                         <h3 class="title">// NEW <span class="white">RELEASE</span><span class="pull-right"><a href="#">more >></a></span></h3>
                         <div class="row row-sm">
                             <div class="col-md-12">
-                                <div class="owl-carousel owl-theme">
-                                    <div class="item-video" data-merge="2">
-                                        <video width="100%" height="100%" poster="./images/m1-crop.jpg" autoplay="true">
-                                           <source src="clips/adaband.mp4" type="video/mp4">
-                                           Your browser does not support the video tag.
-                                        </video>                                        
+                                <div class="owl-nome owl-carousel owl-theme">
+                                    <div class="item">
+                                        <img class="img-responsive" src="./images/m1-crop.jpg">
                                     </div>
-                                    <div class="item-video" data-merge="2">
-                                        <video width="100%" height="100%" poster="./images/m1-crop.jpg" controls>
-                                           <source src="clips/adaband.mp4" type="video/mp4">
-                                           Your browser does not support the video tag.
-                                        </video>                                        
+                                    <div class="item">
+                                        <img class="img-responsive" src="./images/m1-crop.jpg">
                                     </div>
-                                </div>                                
+                                    <div class="item">
+                                        <img class="img-responsive" src="./images/m1-crop.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive" src="./images/m1-crop.jpg">
+                                    </div> 
+                                </div>                               
                             </div>
                         </div>
                         <h3 class="title">// TOP <span class="white">HITS</span><span class="pull-right"><a href="#">more >></a></span></h3>
