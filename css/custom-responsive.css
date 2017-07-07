@@ -49,4 +49,7 @@
   .jp-controls > div  {
     width: auto;
   }
+  h3.title span a {
+      font-size: 16px;
+  }  
 }

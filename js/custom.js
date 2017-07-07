@@ -1,3 +1,22 @@
+// Pitch Control
+$(document).ready(function(){
+    $( "#pitch-control" ).click(function() {
+      $( "#pitch-vertical" ).animate({
+            height: "toggle",
+            opacity: "toggle"
+        }, "fast");
+    });
+});
+
+$('#plus').click(function() {
+    $('#count-pitch').html(function(i, val) { return val*1+1 });
+});
+
+$('#minus').click(function() {
+    $('#count-pitch').html(function(i, val) { return val*1-1 });
+});
+
+
 // Owl
 $('.owl-carousel').owlCarousel({
     loop:true,

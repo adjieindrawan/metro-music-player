@@ -217,12 +217,13 @@ hr.slice-nav {
 }
 
 .power-ranger .range-handle {
-    background: url('../images/pitch.png') 0 0 no-repeat;
-    background-size: 8px !important;
+    background: url(../images/pitch-icon.png) 0 0 no-repeat;
+    background-size: 25px !important;
     border-radius: 0;
-    width: 8px;
+    width: 30px;
     -webkitbox-shadow: none;
     box-shadow: none;
+    margin-left: -10px;    
 }
 
 .power-ranger .range-min {
@@ -281,7 +282,7 @@ hr.slice-nav {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #00dbde, #fc00ff);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .pos-rlt:hover:after {
@@ -354,11 +355,11 @@ span.white {
 }
 
 span a {
-    color: #02abb6;
+    color: #02abb6 !important;
 }
 
 span a:hover, span a:focus, span a:visited {
-    color: #00c8d5;
+    color: #00c8d5 !important;
 }
 
 img.icon-lg {
@@ -432,6 +433,8 @@ input.search-song::-webkit-input-placeholder {
 
 .owl-dots {
     margin-top: 20px;
+    position: relative;
+    z-index: 0;    
 }
 
 .owl-nome .owl-dots .owl-dot span {
@@ -449,4 +452,28 @@ input.search-song::-webkit-input-placeholder {
     -webkit-transition-duration: 0.3s; /* Safari */
     transition-property: width;
     transition-duration: 0.3s;
+}
+
+#pitch-vertical {
+    position: absolute;
+    top: -100px;
+}
+
+div.pitch-control {
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+a.btn.icon-footer {
+    margin-top: 15px;
+}
+
+#pitch-vertical {
+    position: absolute;
+    top: -115px;
+    margin-left: 10px;
+}
+
+#pitch-vertical {
+    display: none;
 }

@@ -6,26 +6,86 @@
             <section class="scrollable padder-lg bg-black p-b pt-20" id="bjax-target">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3 class="title">// NEW <span class="white">RELEASE</span><span class="pull-right"><a href="#">more >></a></span></h3>
+                        <h3 class="title">// TOP <span class="white">CHART</span><span class="pull-right"><a href="#">more >></a></span></h3>
                         <div class="row row-sm">
                             <div class="col-md-12">
                                 <div class="owl-nome owl-carousel owl-theme">
                                     <div class="item">
-                                        <img class="img-responsive" src="./images/m1-crop.jpg">
+                                        <div class="pos-rlt">
+                                            <div class="item-overlay opacity bg-black">
+                                                <div class="center text-center m-t-n">
+                                                    <a href="#"><i class="icon-control-play i-2x text"></i></a>
+                                                </div>
+                                                <div class="bottom padder m-b-sm">
+                                                    <a class="pull-right" data-toggle="class" href="#">
+                                                        <i class="fa fa-heart-o text"></i>
+                                                        <i class="fa fa-heart text-active text-danger"></i>
+                                                    </a>
+                                                    <a data-toggle="class" href="#" class="successClick">
+                                                        <i class="fa fa-plus-circle text"></i>
+                                                        <i class="fa fa-check-circle text-active text-info"></i>
+                                                    </a>
+                                                    <a class="" data-toggle="class" href="#" style="margin-left: 10px;">
+                                                        <i class="fa fa-share-alt text"></i>
+                                                        <i class="fa fa-share-alt text-active text-info"></i>
+                                                    </a>
+                                                </div>
+                                            </div>                                    
+                                            <img class="img-responsive" src="./images/ld1.jpg">
+                                        </div>
+                                    </div>                                
+                                    <div class="item">
+                                        <div class="pos-rlt">
+                                            <div class="item-overlay opacity bg-black">
+                                                <div class="center text-center m-t-n">
+                                                    <a href="#"><i class="icon-control-play i-2x text"></i></a>
+                                                </div>
+                                                <div class="bottom padder m-b-sm">
+                                                    <a class="pull-right" data-toggle="class" href="#">
+                                                        <i class="fa fa-heart-o text"></i>
+                                                        <i class="fa fa-heart text-active text-danger"></i>
+                                                    </a>
+                                                    <a data-toggle="class" href="#" class="successClick">
+                                                        <i class="fa fa-plus-circle text"></i>
+                                                        <i class="fa fa-check-circle text-active text-info"></i>
+                                                    </a>
+                                                    <a class="" data-toggle="class" href="#" style="margin-left: 10px;">
+                                                        <i class="fa fa-share-alt text"></i>
+                                                        <i class="fa fa-share-alt text-active text-info"></i>
+                                                    </a>
+                                                </div>
+                                            </div>                                    
+                                            <img class="img-responsive" src="./images/ld2.jpg">
+                                        </div>
                                     </div>
                                     <div class="item">
-                                        <img class="img-responsive" src="./images/m1-crop.jpg">
-                                    </div>
-                                    <div class="item">
-                                        <img class="img-responsive" src="./images/m1-crop.jpg">
-                                    </div>
-                                    <div class="item">
-                                        <img class="img-responsive" src="./images/m1-crop.jpg">
+                                        <div class="pos-rlt">
+                                            <div class="item-overlay opacity bg-black">
+                                                <div class="center text-center m-t-n">
+                                                    <a href="#"><i class="icon-control-play i-2x text"></i></a>
+                                                </div>
+                                                <div class="bottom padder m-b-sm">
+                                                    <a class="pull-right" data-toggle="class" href="#">
+                                                        <i class="fa fa-heart-o text"></i>
+                                                        <i class="fa fa-heart text-active text-danger"></i>
+                                                    </a>
+                                                    <a data-toggle="class" href="#" class="successClick">
+                                                        <i class="fa fa-plus-circle text"></i>
+                                                        <i class="fa fa-check-circle text-active text-info"></i>
+                                                    </a>
+                                                    <a class="" data-toggle="class" href="#" style="margin-left: 10px;">
+                                                        <i class="fa fa-share-alt text"></i>
+                                                        <i class="fa fa-share-alt text-active text-info"></i>
+                                                    </a>
+                                                </div>
+                                            </div>                                    
+                                            <img class="img-responsive" src="./images/ld3.jpg">
+                                        </div>
                                     </div> 
                                 </div>                               
                             </div>
                         </div>
-                        <h3 class="title">// TOP <span class="white">HITS</span><span class="pull-right"><a href="#">more >></a></span></h3>
+                        <h3 class="title">// TOP <span class="white">RELEASE</span><span class="pull-right"><a href="#">more >></a></span></h3>
                         <div class="row row-sm">
                             <div class="col-xs-4 col-sm-4">
                                 <div class="item">

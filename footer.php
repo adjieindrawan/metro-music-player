@@ -41,8 +41,17 @@
                         <div class="icon-footer bb-green">
                             <a href="#" class=""><i class="fa fa-microphone jp-karaoke i-lg" aria-hidden="true"></i></a>
                         </div>
-                        <!-- <div class="visible-xs block"><a class="" data-toggle="dropdown" data-target="#options"><i class="icon-options i-lg"></i></a></div> -->
-                        <div class="hidden-sm pitch bb-purple">
+                        <div class="visible-xs block bb-purple" id="pitch-control">
+                            <a href="#" class="btn icon-footer"><img class="icon-md" src="images/pitch-icon-o.png"></a>
+                        </div>
+                        <div id="pitch-vertical">
+                            <div class="btn-group-vertical pitch-control bg-gradient">
+                              <a class="btn btn-pitch" href="#" id="plus"><i class="icon-plus icons i-lg"></i></a>
+                              <h4 id="count-pitch">0</h4>
+                              <a class="btn btn-pitch" href="#" id="minus"><i class="icon-minus icons i-lg"></i></a>
+                            </div>                          
+                        </div>
+                        <div class="hidden-xs pitch bb-purple">
                             <div class="slider-wrapper">
                                 <input type="text" class="js-customized" />
                             </div>
@@ -60,7 +69,7 @@
                     <!-- The method Playlist.displayPlaylist() uses this unordered list -->
                     <li class="list-group-item"></li>
                 </ul>
-            </div>
+            </div>         
 <!--             <div class="dd-options dropup" id="options">
                 <ul class="dropdown-menu aside-xl dker">
                     <li class="list-group-item"><a href="#"><a href="#"><i class="icon icon-size-fullscreen i-lg"></i> Full Screen</a></li>

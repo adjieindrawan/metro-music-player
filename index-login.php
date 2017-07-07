@@ -6,20 +6,26 @@
             <section class="scrollable padder-lg bg-black p-b pt-20" id="bjax-target">
                 <div class="row">
                     <div class="col-md-6">
-                        <h3 class="title">// NEW <span class="white">RELEASE</span><span class="pull-right"><a href="#">more >></a></span></h3>
+                        <h3 class="title">// TOP <span class="white">CHART</span><span class="pull-right"><a href="#">more >></a></span></h3>
                         <div class="row row-sm">
                             <div class="col-md-12">
-                                <div class="owl-carousel owl-theme">
+                                <div class="owl-nome owl-carousel owl-theme">
                                     <div class="item">
                                         <img class="img-responsive" src="./images/m1-crop.jpg">
                                     </div>
                                     <div class="item">
                                         <img class="img-responsive" src="./images/m1-crop.jpg">
                                     </div>
-                                </div>                                
+                                    <div class="item">
+                                        <img class="img-responsive" src="./images/m1-crop.jpg">
+                                    </div>
+                                    <div class="item">
+                                        <img class="img-responsive" src="./images/m1-crop.jpg">
+                                    </div> 
+                                </div>                               
                             </div>
                         </div>
-                        <h3 class="title">// TOP <span class="white">HITS</span><span class="pull-right"><a href="#">more >></a></span></h3>
+                        <h3 class="title">// TOP <span class="white">RELEASE</span><span class="pull-right"><a href="#">more >></a></span></h3>
                         <div class="row row-sm">
                             <div class="col-xs-4 col-sm-4">
                                 <div class="item">
