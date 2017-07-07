@@ -11,14 +11,14 @@
                             <div class="col-md-12">
                                 <div class="owl-carousel owl-theme">
                                     <div class="item-video" data-merge="2">
-                                        <video width="100%" height="100%" poster="/images/m1-crop.jpg" controls>
-                                           <source src="/adaband.mp4" type="video/mp4">
+                                        <video width="100%" height="100%" poster="./images/m1-crop.jpg" controls>
+                                           <source src="clips/adaband.mp4" type="video/mp4">
                                            Your browser does not support the video tag.
                                         </video>                                        
                                     </div>
                                     <div class="item-video" data-merge="2">
-                                        <video width="100%" height="100%" poster="/images/m1-crop.jpg" controls>
-                                           <source src="/adaband.mp4" type="video/mp4">
+                                        <video width="100%" height="100%" poster="./images/m1-crop.jpg" controls>
+                                           <source src="clips/adaband.mp4" type="video/mp4">
                                            Your browser does not support the video tag.
                                         </video>                                        
                                     </div>
