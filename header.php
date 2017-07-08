@@ -33,7 +33,7 @@
                 <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
                     <i class="icon-list"></i>
                 </a>
-                <a href="index.html" class="navbar-brand visible-xs">
+                <a href="index.php" class="navbar-brand visible-xs">
                     <img src="images/logo-smart.png" alt="." class="img-responsive">
                 </a>
                 <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">

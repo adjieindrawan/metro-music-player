@@ -8,9 +8,17 @@
   .vbox > header ~ section {
     top: 99px;
   }
+  .jp-playlist.open ul {
+      left: 80rem;
+  }  
 }
 
 @media (max-width: 767px) {
+
+  .navbar-left {
+      overflow-y: visible;
+  }
+
   h3.title {
       font-size: 20px;
   }
@@ -27,6 +35,7 @@
   footer.footer {
     position: fixed;
     bottom: 0;
+    z-index: 9;
   }
   .nav-user .avatar {
     display: inline-block;

@@ -220,10 +220,9 @@ hr.slice-nav {
     background: url(../images/pitch-icon.png) 0 0 no-repeat;
     background-size: 25px !important;
     border-radius: 0;
-    width: 30px;
+    width: 17px;
     -webkitbox-shadow: none;
     box-shadow: none;
-    margin-left: -10px;    
 }
 
 .power-ranger .range-min {
@@ -471,7 +470,7 @@ a.btn.icon-footer {
 #pitch-vertical {
     position: absolute;
     top: -115px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 #pitch-vertical {
