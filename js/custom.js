@@ -22,6 +22,9 @@ $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
     navText: [
         "<i class='icon icon-arrow-left'></i>",
         "<i class='icon icon-arrow-right'></i>"],
