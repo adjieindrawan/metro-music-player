@@ -71,7 +71,3 @@ $('.successClick').click(function() {
 // Basic customization.
 var cust = document.querySelector('.js-customized');
 var initCust = new Powerange(cust, { hideRange: true, klass: 'power-ranger', start: 60 });
-
-// Min, max, start.
-var vals = document.querySelector('.js-min-max-start');
-var initVals = new Powerange(vals, { hideRange: true, min: 0, max: 100, start: 50 });

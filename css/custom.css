@@ -223,6 +223,7 @@ hr.slice-nav {
     width: 17px;
     -webkitbox-shadow: none;
     box-shadow: none;
+    margin-left: -10px;
 }
 
 .power-ranger .range-min {
@@ -453,10 +454,6 @@ input.search-song::-webkit-input-placeholder {
     transition-duration: 0.3s;
 }
 
-#pitch-vertical {
-    position: absolute;
-    top: -100px;
-}
 
 div.pitch-control {
     padding: 10px 15px;
@@ -470,9 +467,60 @@ a.btn.icon-footer {
 #pitch-vertical {
     position: absolute;
     top: -115px;
-    margin-left: 15px;
 }
 
 #pitch-vertical {
     display: none;
+}
+
+.cover-song {
+    width: 50px;
+    float: left
+}
+
+.cover-song img {
+    display: block
+}
+
+.jp-controls .now-playing  {
+    width: 100px !important;
+    text-align: left;
+    padding: 10px;
+}
+
+.song-title {
+    margin-left: 60px;
+    line-height: 16px;
+}
+
+.song-title span {
+    font-size: 10px;
+    color: #6b6b6b;
+}
+
+span.name-song {
+    font-size: 14px;
+    display: block;
+    color: #02abb6;
+}
+
+span.name-artist {
+    font-size: 12px;
+    color: #b47aaa;
+}
+
+.now-playing:hover, .now-playing:focus {
+    background: #0c0c0c;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.icon-now {
+    display: inline;
+    margin-left: 55px;
+    vertical-align: middle;
+    position: absolute;
+    top: 30px;    
 }

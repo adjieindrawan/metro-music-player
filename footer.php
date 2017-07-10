@@ -9,7 +9,22 @@
                 </div>
                 <div class="jp-interface">
                     <div class="jp-controls">
-                        <div class="hidden-xs">&nbsp;</div>
+                        <div class="bb-red now-playing">
+                            <a href="#">
+                                <div class="cover-song">
+                                    <img class="img-responsive" src="images/m1.jpg">
+                                </div>
+                                <div class="song-title">
+                                    <span class="default">Now Playing </span>
+                                    <span class="name-song" href="#"><marquee behavior=scroll direction="left" scrollamount="2">Manusia Bodoh</marquee></span>
+                                    <span class="name-artist" href="#">Ada Band
+                                    <div class="icon-now hidden-xs">
+                                        <i class="icon-arrow-up icons"></i>
+                                    </div>                                    
+                                </div>                  
+                            </a>
+                        </div>
+                        <!-- <div class="visible-xs bb-red w10">&nbsp;</div> -->
                         <div class="bb-red">
                             <a class="jp-play"><img class="icon-lg" src="images/player-control/play-2.png"></a>
                             <a class="jp-pause hid block"><img class="icon-lg" src="images/player-control/pause-2.png"></a>

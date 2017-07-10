@@ -15,6 +15,24 @@
 
 @media (max-width: 767px) {
 
+  .p-b {
+      padding-bottom: 90px;
+  }
+
+  div#pitch-control {
+    margin-top: 20px;
+  }
+
+  .jp-controls .now-playing {
+    width: 140px !important;
+  }
+
+  a.btn.icon-footer {
+      margin-top: 5px;
+  }
+  div#pitch-control {
+      margin-top: 20px;
+  }
   .navbar-left {
       overflow-y: visible;
   }
