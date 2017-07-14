@@ -26,8 +26,8 @@
                         </div>
                         <!-- <div class="visible-xs bb-red w10">&nbsp;</div> -->
                         <div class="bb-red">
-                            <a class="jp-play"><img class="icon-lg" src="images/player-control/play-2.png"></a>
-                            <a class="jp-pause hid block"><img class="icon-lg" src="images/player-control/pause-2.png"></a>
+                            <a class="jp-play" onclick="wavesurfer.play()"><img class="icon-lg" src="images/player-control/play-2.png"></a>
+                            <a class="jp-pause hid block" onclick="wavesurfer.pause()"><img class="icon-lg" src="images/player-control/pause-2.png"></a>
                         </div>
                         <div class="bb-red"><a class="jp-next"><img class="icon" src="images/player-control/next.png"></div></a>
                         <div class="hide bt-red"><a class="jp-stop"><i class="fa fa-stop"></i></a></div>
@@ -129,6 +129,7 @@
 <script type="text/javascript" src="js/jPlayer/jquery.jplayer.min.js"></script>
 <script type="text/javascript" src="js/jPlayer/add-on/jplayer.playlist.min.js"></script>
 <script type="text/javascript" src="js/jPlayer/demo.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.3.7/wavesurfer.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 
 </body>

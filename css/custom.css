@@ -33,8 +33,7 @@ h3.title {
     font-weight: 300;
 }
 
-a,
-.bg-black .text-lt {
+a, .bg-black .text-lt {
     color: #02abb6;
 }
 
@@ -61,17 +60,23 @@ div.user-detail {
     background-color: #20263c;
 }
 
-.no-background {
+.icon-search {
     background: none;
     border: none;
+    font: initial;
+    color: #02abb6;
 }
 
 input.search-song {
-    background: none;
+    background: #141015;
     border: none;
-    border-bottom: 1px solid #2899d4;
-    font-size: 18px;
+    font-size: 14px;
+    border-radius: 5px;
     color: #fff;
+}
+
+span.input-group-btn {
+    background: #141015;
 }
 
 form.search-header {
@@ -350,7 +355,7 @@ div.logo-footer {
     padding-top: 20px;
 }
 
-span.white {
+.white {
     color: #fff;
 }
 
@@ -382,7 +387,7 @@ img.icon-lg {
     background-color: #312b2b;
 }
 
-a:hover, a:focus {
+a:hover {
     color: #b47aaa;
 }
 
@@ -483,10 +488,9 @@ a.btn.icon-footer {
 }
 
 .jp-controls .now-playing  {
-    width: 100px !important;
-    text-align: left;
-    padding: 10px;
-}
+  text-align: left;
+  padding: 10px;
+}     
 
 .song-title {
     margin-left: 60px;
@@ -522,7 +526,7 @@ span.name-artist {
     margin-left: 55px;
     vertical-align: middle;
     position: absolute;
-    top: 30px;    
+    top: 30px;
 }
 
 video.video-play {
@@ -530,6 +534,103 @@ video.video-play {
     height: auto;
 }
 
-#video-container {
-    padding: 30px 0;
+img.ply {
+    width: 80px !important;
+}
+
+.ply-info {
+    margin-left: 100px;
+}
+
+h3.ply-song {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    color: #fff;    
+}
+
+h3.ply-song a {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+p.ply-artist {
+    color: #6e8081;
+}
+
+ul.ply-more {
+    padding-left: 0;
+    list-style: none;
+}
+
+ul.ply-more li {
+    display: inline;
+    color: #02abb6;
+    padding-right: 15px;
+}
+
+.bg-black a {
+    color: #fff;
+}
+
+ul.ply-more li i {
+    color: #3f8dc5;
+}
+
+.text-danger {
+    color: #f05050 !important;
+}
+
+.playlist-item {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #111;
+}
+
+span.caret-up {
+    position: absolute;
+    top: -27px;
+    right: 0;
+    font-size: 3rem;
+    color: #1b1f2a;
+
+}
+
+.options ul li a {
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+}
+
+.options ul.dropdown-menu.bg-gradient {
+    width: 180px;
+}
+
+li.menu-item {
+    padding: 5px 0;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+li.menu-item a:hover, li.menu-item:hover  {
+    background: #1b151a !important;
+    color: #fff;
+}
+
+.playing {
+    position: relative;
+    height: 500px;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../images/pl2.jpg) no-repeat top;
+    background-size: cover;
+}
+
+div#waveform {
+    padding-top: 25%;
+}
+
+div.bottom-control-ply {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.bottom-control-ply a {
+    margin-right: 15px;
+    font-size: 18px;
 }

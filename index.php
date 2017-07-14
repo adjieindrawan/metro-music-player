@@ -9,7 +9,7 @@
                         <h3 class="title">// TOP <span class="white">CHART</span><span class="pull-right"><a href="#">more >></a></span></h3>
                         <div class="row row-sm">
                             <div class="col-md-12">
-                                <div class="owl-nome owl-carousel owl-theme">
+                                <div class="owl-nome owl-carousel owl-theme main-slide">
                                     <div class="item">
                                         <div class="pos-rlt">
                                             <div class="item-overlay opacity bg-black">
@@ -180,7 +180,7 @@
                         </div>                        
                     </div>
                     <div class="col-md-6">
-                        <h3 class="title">// YOUR MOOD <span class="white">& GENRE</span><span class="pull-right"><a href="#">more >></span></h3>
+                        <h3 class="title">// YOUR MOOD <span class="white">&amp; GENRE</span><span class="pull-right"><a href="#">more >></span></h3>
                         <div class="row row-sm">
                             <div class="col-xs-4 col-sm-4">
                                 <div class="item">

@@ -10,10 +10,21 @@
   }
   .jp-playlist.open ul {
       left: 80rem;
-  }  
+  }
+  .jp-controls .now-playing  {
+      width: 140px !important;
+  }   
 }
 
 @media (max-width: 767px) {
+
+  .playing {
+    height: 300px;
+  }
+
+  h3.ply-song a {
+      font-size: 16px;
+  }
 
   html, body {
     background: #060404;
@@ -25,20 +36,22 @@
     font-weight: 500;
   }
 
-  span.input-group-btn {
-      top: -5px;
-  }
+span.input-group-btn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
-  form.search-header {
+form.search-header {
     padding-top: 0;
     box-shadow: none;
     margin-right: -15px;
-    margin-bottom: 0 !important; 
-    margin-left: 0; 
-    margin-top: 3px;
-    border-top: none; 
-    border-bottom: none;   
-  }
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    margin-top: 8px;
+    border-top: none;
+    border-bottom: 0;
+}
 
   .navbar-brand {
     line-height: 1px;
@@ -75,6 +88,7 @@
   h3.title {
       font-size: 20px;
   }
+
   .owl-theme .owl-nav [class*=owl-] {
       font-size: 3rem;
   }
@@ -82,36 +96,49 @@
   .ds-table {
       display: table-cell !important;
   } 
+
   .header {
     border-bottom: none !important;
   }
+
   footer.footer {
     position: fixed;
     bottom: 0;
     z-index: 9;
   }
+
   .nav-user .avatar {
     display: inline-block;
   }
+
   .menus.open li {
       display: inline-block !important;
       width: auto;
   }
+
   .header-md .navbar-nav > li.menu > a {
     padding: 10px;
   }
+
   .aside a {
       color: #fff !important;
-  }  
+  } 
+
   .open, .open body {
       height: 100% !important;
       position: relative;
       min-height: auto !important;
   }
+
   .jp-controls > div  {
     width: auto;
   }
+
   h3.title span a {
       font-size: 16px;
-  }  
+  }
+
+  span.caret-up {
+      top: -25px;  
+  }
 }

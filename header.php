@@ -5,7 +5,16 @@
     <meta charset="utf-8" />
     <title>Metro New | Smart Karaoke Skin</title>
     <meta name="description" content="Metro New" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- for ios 7 style, multi-resolution icon of 152x152 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+    <link rel="apple-touch-icon" href="images/logo.png">
+    <meta name="apple-mobile-web-app-title" content="MetroN">
+    <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" sizes="196x196" href="images/logo.png">    
     <link rel="stylesheet" href="js/jPlayer/jplayer.flat.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="css/animate.css" type="text/css" />
@@ -39,7 +48,7 @@
                             <div class="input-group">
                                 <input type="text" class="form-control search-song" placeholder="Search Artists or Song">
                                 <span class="input-group-btn">
-                      <button type="submit" class="no-background"><img src="images/search-ico.png" alt="..."></button>
+                      <button type="submit" class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </span>
                             </div>
                         </div>
@@ -96,7 +105,7 @@
                     <div class="input-group">
                         <input type="text" class="form-control search-song" placeholder="Search Artists or Song">
                         <span class="input-group-btn">
-              <button type="submit" class="no-background"><img src="images/search-ico.png" alt="..."></button>
+              <button type="submit" class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
             </span>
                     </div>
                 </div>

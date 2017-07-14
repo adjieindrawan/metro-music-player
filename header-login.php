@@ -33,9 +33,18 @@
                 <a class="btn btn-link visible-xs" data-toggle="class:nav-off-screen,open" data-target="#nav,html">
                     <i class="icon-list"></i>
                 </a>
-                <a href="index.html" class="navbar-brand visible-xs">
-                    <img src="images/logo-smart.png" alt="." class="img-responsive">
-                </a>
+                <div class="navbar-brand visible-xs">
+                    <form class="navbar-form navbar-left search-header" role="search">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" class="form-control search-song" placeholder="Search Artists or Song">
+                                <span class="input-group-btn">
+                      <button type="submit" class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </span>
+                            </div>
+                        </div>
+                    </form>                    
+                </div>
                 <a class="btn btn-link visible-xs" data-toggle="dropdown" data-target=".user">
                     <i class="icon-user icon"></i>
                 </a>
@@ -88,8 +97,8 @@
                     <div class="input-group">
                         <input type="text" class="form-control search-song" placeholder="Search Artists or Song">
                         <span class="input-group-btn">
-              <button type="submit" class="no-background"><img src="images/search-ico.png" alt="..."></button>
-            </span>
+                            <button type="submit" class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </span>
                     </div>
                 </div>
             </form>
