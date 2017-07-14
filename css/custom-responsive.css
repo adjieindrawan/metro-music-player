@@ -15,6 +15,59 @@
 
 @media (max-width: 767px) {
 
+  html, body {
+    background: #060404;
+  }
+
+  input.search-song {
+    font-size: 16px;
+    width: auto;
+    font-weight: 500;
+  }
+
+  span.input-group-btn {
+      top: -5px;
+  }
+
+  form.search-header {
+    padding-top: 0;
+    box-shadow: none;
+    margin-right: -15px;
+    margin-bottom: 0 !important; 
+    margin-left: 0; 
+    margin-top: 3px;
+    border-top: none; 
+    border-bottom: none;   
+  }
+
+  .navbar-brand {
+    line-height: 1px;
+    padding: 0 50px;
+  }
+
+  .navbar-brand img {
+    margin-top: 15px;
+    width: 20px;
+  }
+
+  .p-b {
+      padding-bottom: 90px;
+  }
+
+  div#pitch-control {
+    margin-top: 20px;
+  }
+
+  .jp-controls .now-playing {
+    width: 140px !important;
+  }
+
+  a.btn.icon-footer {
+      margin-top: 5px;
+  }
+  div#pitch-control {
+      margin-top: 20px;
+  }
   .navbar-left {
       overflow-y: visible;
   }
