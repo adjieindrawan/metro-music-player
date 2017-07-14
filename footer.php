@@ -10,11 +10,7 @@
                 <div class="jp-interface">
                     <div class="jp-controls">
                         <div class="bb-red now-playing">
-<<<<<<< HEAD
                             <a href="now-playing.php">
-=======
-                            <a href="#">
->>>>>>> 98cdfb0be9cfed9d13781bcc35921471781cbd9a
                                 <div class="cover-song">
                                     <img class="img-responsive" src="images/m1.jpg">
                                 </div>
